@@ -1,0 +1,663 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DecodedArguments"
+- "ArgumentDecoder"
+- "ParsedArgumentsContainer"
+- "SingleValueDecoder"
+- "ArrayWrapperProtocol"
+- "ArrayWrapper"
+provides-nominal:
+- "14ArgumentParser16DecodedArgumentsV"
+- "14ArgumentParser0A7DecoderC"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- "14ArgumentParser24ParsedArgumentsContainerC"
+- "14ArgumentParser18SingleValueDecoderV"
+- "14ArgumentParser18SingleValueDecoderV0cD9ContainerV"
+- "14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV"
+- "14ArgumentParser20ArrayWrapperProtocolP"
+- "14ArgumentParser12ArrayWrapperV"
+provides-member:
+- ["14ArgumentParser16DecodedArgumentsV", ""]
+- ["14ArgumentParser0A7DecoderC", ""]
+- ["14ArgumentParser0A7DecoderC5ErrorO", ""]
+- ["14ArgumentParser24ParsedArgumentsContainerC", ""]
+- ["14ArgumentParser18SingleValueDecoderV", ""]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", ""]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", ""]
+- ["14ArgumentParser20ArrayWrapperProtocolP", ""]
+- ["14ArgumentParser12ArrayWrapperV", ""]
+- ["14ArgumentParser0A7DecoderC", "Error"]
+provides-dynamic-lookup:
+- "codingPath"
+- "container"
+- "element"
+- "nextCommandIndex"
+- "previouslyDecoded"
+- "singleValueContainer"
+- "unkeyedContainer"
+- "usedOrigins"
+- "userInfo"
+- "values"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "+="
+- !private "<"
+- !private "<="
+- !private "=="
+- "ArgumentDecoder"
+- "ArrayWrapper"
+- "ArrayWrapperProtocol"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "CodingKey"
+- "CodingUserInfoKey"
+- "Decodable"
+- "DecodedArguments"
+- "Decoder"
+- "FloatLiteralType"
+- "InputKey"
+- "InputOrigin"
+- "Int"
+- "IntegerLiteralType"
+- !private "InternalParseError"
+- "KeyedDecodingContainer"
+- "KeyedDecodingContainerProtocol"
+- "ParsableArguments"
+- "ParsableCommand"
+- "ParsedArgumentsContainer"
+- "ParsedValues"
+- !private "ParserError"
+- "SingleValueDecoder"
+- "SingleValueDecodingContainer"
+- "Swift"
+- "UnkeyedDecodingContainer"
+- !private "fatalError"
+depends-member:
+- ["14ArgumentParser0A7DecoderC", "CodingKey"]
+- ["14ArgumentParser0A7DecoderC", "CodingUserInfoKey"]
+- ["14ArgumentParser0A7DecoderC", "DecodedArguments"]
+- ["14ArgumentParser0A7DecoderC", "Error"]
+- ["14ArgumentParser0A7DecoderC", "InputKey"]
+- ["14ArgumentParser0A7DecoderC", "InputOrigin"]
+- ["14ArgumentParser0A7DecoderC", "KeyedDecodingContainer"]
+- !private ["14ArgumentParser0A7DecoderC", "ParsedArgumentsContainer"]
+- ["14ArgumentParser0A7DecoderC", "ParsedValues"]
+- ["14ArgumentParser0A7DecoderC", "SingleValueDecodingContainer"]
+- ["14ArgumentParser0A7DecoderC", "Swift"]
+- ["14ArgumentParser0A7DecoderC", "UnkeyedDecodingContainer"]
+- ["14ArgumentParser0A7DecoderC", "codingPath"]
+- ["14ArgumentParser0A7DecoderC", "container"]
+- ["14ArgumentParser0A7DecoderC", "deinit"]
+- !private ["14ArgumentParser0A7DecoderC", "element"]
+- ["14ArgumentParser0A7DecoderC", "init"]
+- ["14ArgumentParser0A7DecoderC", "nextCommandIndex"]
+- ["14ArgumentParser0A7DecoderC", "previouslyDecoded"]
+- ["14ArgumentParser0A7DecoderC", "singleValueContainer"]
+- ["14ArgumentParser0A7DecoderC", "unkeyedContainer"]
+- ["14ArgumentParser0A7DecoderC", "usedOrigins"]
+- ["14ArgumentParser0A7DecoderC", "userInfo"]
+- ["14ArgumentParser0A7DecoderC", "values"]
+- !private ["14ArgumentParser0A18HelpOptionProviderP", "callAsFunction"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "endIndex"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "last"]
+- !private ["Sa", "startIndex"]
+- !private ["Sa", "subscript"]
+- ["14ArgumentParser12ArrayWrapperV", "Bool"]
+- ["14ArgumentParser12ArrayWrapperV", "Int"]
+- ["14ArgumentParser12ArrayWrapperV", "base"]
+- ["14ArgumentParser12ArrayWrapperV", "count"]
+- ["14ArgumentParser12ArrayWrapperV", "currentIndex"]
+- ["14ArgumentParser12ArrayWrapperV", "deinit"]
+- ["14ArgumentParser12ArrayWrapperV", "getNext"]
+- ["14ArgumentParser12ArrayWrapperV", "init"]
+- ["14ArgumentParser12ArrayWrapperV", "isAtEnd"]
+- ["14ArgumentParser20ArrayWrapperProtocolP", "Bool"]
+- ["14ArgumentParser20ArrayWrapperProtocolP", "Int"]
+- ["14ArgumentParser20ArrayWrapperProtocolP", ""]
+- !private ["14ArgumentParser20ArrayWrapperProtocolP", "base"]
+- ["14ArgumentParser20ArrayWrapperProtocolP", "count"]
+- ["14ArgumentParser20ArrayWrapperProtocolP", "currentIndex"]
+- ["14ArgumentParser20ArrayWrapperProtocolP", "getNext"]
+- !private ["14ArgumentParser20ArrayWrapperProtocolP", "init"]
+- ["14ArgumentParser20ArrayWrapperProtocolP", "isAtEnd"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "forEach"]
+- !private ["SK", "last"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "endIndex"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "startIndex"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "last"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "endIndex"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "startIndex"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "endIndex"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "startIndex"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "count"]
+- !private ["Se", "endIndex"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "startIndex"]
+- !private ["Se", "subscript"]
+- ["14ArgumentParser16DecodedArgumentsV", "ParsableArguments"]
+- ["14ArgumentParser16DecodedArgumentsV", "ParsableCommand"]
+- ["14ArgumentParser16DecodedArgumentsV", "command"]
+- ["14ArgumentParser16DecodedArgumentsV", "commandType"]
+- ["14ArgumentParser16DecodedArgumentsV", "init"]
+- ["14ArgumentParser16DecodedArgumentsV", "type"]
+- ["14ArgumentParser16DecodedArgumentsV", "value"]
+- !private ["s7DecoderP", "ArrayWrapper"]
+- !private ["s7DecoderP", "DecodedArguments"]
+- !private ["s7DecoderP", "Error"]
+- !private ["s7DecoderP", "InputKey"]
+- !private ["s7DecoderP", "InputOrigin"]
+- !private ["s7DecoderP", "InternalParseError"]
+- !private ["s7DecoderP", "KeyedDecodingContainer"]
+- !private ["s7DecoderP", "ParsedArgumentsContainer"]
+- !private ["s7DecoderP", "ParserError"]
+- !private ["s7DecoderP", "SingleValueContainer"]
+- !private ["s7DecoderP", "UnkeyedContainer"]
+- ["s7DecoderP", ""]
+- ["s7DecoderP", "codingPath"]
+- ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "element"]
+- !private ["s7DecoderP", "fatalError"]
+- !private ["s7DecoderP", "init"]
+- !private ["s7DecoderP", "parsedElement"]
+- !private ["s7DecoderP", "previouslyDecoded"]
+- ["s7DecoderP", "singleValueContainer"]
+- !private ["s7DecoderP", "underlying"]
+- ["s7DecoderP", "unkeyedContainer"]
+- !private ["s7DecoderP", "usedOrigins"]
+- ["s7DecoderP", "userInfo"]
+- !private ["s7DecoderP", "values"]
+- !private ["14ArgumentParser12ParsedValuesV7ElementV", "inputOrigin"]
+- !private ["14ArgumentParser12ParsedValuesV7ElementV", "key"]
+- !private ["14ArgumentParser12ParsedValuesV7ElementV", "value"]
+- !private ["SE", "append"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "count"]
+- !private ["SE", "endIndex"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "forEach"]
+- !private ["SE", "last"]
+- !private ["SE", "startIndex"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "count"]
+- !private ["SQ", "endIndex"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "formUnion"]
+- !private ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "terminator"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "CodingKey"]
+- ["s5ErrorP", ""]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "_code"]
+- ["s5ErrorP", "_code"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "_domain"]
+- ["s5ErrorP", "_domain"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "_userInfo"]
+- ["s5ErrorP", "_userInfo"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "deinit"]
+- !private ["s5ErrorP", "invalidState"]
+- !private ["s5ErrorP", "noValue"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "singleValueDecoderHasNoContainer"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "topLevelHasNoSingleValueContainer"]
+- !private ["s5ErrorP", "topLevelHasNoSingleValueContainer"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "topLevelHasNoUnkeyedContainer"]
+- !private ["s5ErrorP", "topLevelHasNoUnkeyedContainer"]
+- ["14ArgumentParser0A7DecoderC5ErrorO", "wrongKeyType"]
+- !private ["s5ErrorP", "wrongType"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "startIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["SH", "append"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "count"]
+- !private ["SH", "endIndex"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "forEach"]
+- !private ["SH", "last"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "subscript"]
+- !private ["14ArgumentParser8InputKeyV", "deinit"]
+- !private ["14ArgumentParser8InputKeyV", "init"]
+- !private ["14ArgumentParser8InputKeyV", "terminator"]
+- !private ["14ArgumentParser11InputOriginV", "deinit"]
+- !private ["14ArgumentParser11InputOriginV", "formUnion"]
+- !private ["14ArgumentParser11InputOriginV", "init"]
+- !private ["14ArgumentParser18InternalParseErrorO", "deinit"]
+- !private ["14ArgumentParser18InternalParseErrorO", "wrongType"]
+- !private ["s22KeyedDecodingContainerV", "init"]
+- !private ["s30KeyedDecodingContainerProtocolP", "InputKey"]
+- ["s30KeyedDecodingContainerProtocolP", "Key"]
+- !private ["s30KeyedDecodingContainerProtocolP", "SingleValueDecoder"]
+- ["s30KeyedDecodingContainerProtocolP", ""]
+- ["s30KeyedDecodingContainerProtocolP", "_Default_Key"]
+- ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- ["s30KeyedDecodingContainerProtocolP", "contains"]
+- ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "element"]
+- !private ["s30KeyedDecodingContainerProtocolP", "fatalError"]
+- !private ["s30KeyedDecodingContainerProtocolP", "init"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- ["s30KeyedDecodingContainerProtocolP", "superDecoder"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "endIndex"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "forEach"]
+- !private ["SM", "last"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "endIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "startIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sq", "callAsFunction"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "ArgumentDecoder"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "Bool"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "CodingKey"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "Decodable"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "Decoder"]
+- !private ["14ArgumentParser24ParsedArgumentsContainerC", "InputKey"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "Key"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "KeyedDecodingContainer"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "ParsedValues"]
+- !private ["14ArgumentParser24ParsedArgumentsContainerC", "SingleValueDecoder"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "UnkeyedDecodingContainer"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "_Default_Key"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "allKeys"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "codingPath"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "contains"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "decode"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "decodeIfPresent"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "decodeNil"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "decoder"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "deinit"]
+- !private ["14ArgumentParser24ParsedArgumentsContainerC", "element"]
+- !private ["14ArgumentParser24ParsedArgumentsContainerC", "fatalError"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "init"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "nestedContainer"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "nestedUnkeyedContainer"]
+- ["14ArgumentParser24ParsedArgumentsContainerC", "superDecoder"]
+- ["14ArgumentParser12ParsedValuesV", "Element"]
+- !private ["14ArgumentParser12ParsedValuesV", "element"]
+- !private ["14ArgumentParser12ParsedValuesV", "elements"]
+- !private ["14ArgumentParser0B5ErrorO", "deinit"]
+- !private ["14ArgumentParser0B5ErrorO", "invalidState"]
+- !private ["14ArgumentParser0B5ErrorO", "noValue"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "last"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "endIndex"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "last"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "init"]
+- !private ["SY", "terminator"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "forEach"]
+- !private ["ST", "last"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "Bool"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "CodingKey"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "Decodable"]
+- !private ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "InputKey"]
+- !private ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "InternalParseError"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "ParsedValues"]
+- !private ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "ParserError"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "SingleValueDecoder"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "codingPath"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "decode"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "decodeNil"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "deinit"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "init"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "parsedElement"]
+- ["14ArgumentParser18SingleValueDecoderV0cD9ContainerV", "underlying"]
+- ["14ArgumentParser18SingleValueDecoderV", "ArgumentDecoder"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "ArrayWrapper"]
+- ["14ArgumentParser18SingleValueDecoderV", "ArrayWrapperProtocol"]
+- ["14ArgumentParser18SingleValueDecoderV", "Bool"]
+- ["14ArgumentParser18SingleValueDecoderV", "CodingKey"]
+- ["14ArgumentParser18SingleValueDecoderV", "CodingUserInfoKey"]
+- ["14ArgumentParser18SingleValueDecoderV", "Decodable"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "DecodedArguments"]
+- ["14ArgumentParser18SingleValueDecoderV", "Decoder"]
+- ["14ArgumentParser18SingleValueDecoderV", "InputKey"]
+- ["14ArgumentParser18SingleValueDecoderV", "Int"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "InternalParseError"]
+- ["14ArgumentParser18SingleValueDecoderV", "KeyedDecodingContainer"]
+- ["14ArgumentParser18SingleValueDecoderV", "ParsableArguments"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "ParsedArgumentsContainer"]
+- ["14ArgumentParser18SingleValueDecoderV", "ParsedValues"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "ParserError"]
+- ["14ArgumentParser18SingleValueDecoderV", "SingleValueContainer"]
+- ["14ArgumentParser18SingleValueDecoderV", "SingleValueDecoder"]
+- ["14ArgumentParser18SingleValueDecoderV", "SingleValueDecodingContainer"]
+- ["14ArgumentParser18SingleValueDecoderV", "UnkeyedContainer"]
+- ["14ArgumentParser18SingleValueDecoderV", "UnkeyedDecodingContainer"]
+- ["14ArgumentParser18SingleValueDecoderV", "codingPath"]
+- ["14ArgumentParser18SingleValueDecoderV", "container"]
+- ["14ArgumentParser18SingleValueDecoderV", "deinit"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "fatalError"]
+- ["14ArgumentParser18SingleValueDecoderV", "init"]
+- ["14ArgumentParser18SingleValueDecoderV", "key"]
+- ["14ArgumentParser18SingleValueDecoderV", "parsedElement"]
+- ["14ArgumentParser18SingleValueDecoderV", "previousValue"]
+- ["14ArgumentParser18SingleValueDecoderV", "saveValue"]
+- ["14ArgumentParser18SingleValueDecoderV", "singleValueContainer"]
+- ["14ArgumentParser18SingleValueDecoderV", "underlying"]
+- ["14ArgumentParser18SingleValueDecoderV", "unkeyedContainer"]
+- ["14ArgumentParser18SingleValueDecoderV", "userInfo"]
+- !private ["s28SingleValueDecodingContainerP", "InputKey"]
+- !private ["s28SingleValueDecodingContainerP", "InternalParseError"]
+- !private ["s28SingleValueDecodingContainerP", "ParserError"]
+- ["s28SingleValueDecodingContainerP", ""]
+- ["s28SingleValueDecodingContainerP", "codingPath"]
+- ["s28SingleValueDecodingContainerP", "decode"]
+- ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueDecodingContainerP", "init"]
+- !private ["s28SingleValueDecodingContainerP", "parsedElement"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "ArrayWrapperProtocol"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "Bool"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "CodingKey"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "Decodable"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "Decoder"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "Int"]
+- !private ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "InternalParseError"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "KeyedDecodingContainer"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "ParsedValues"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "UnkeyedDecodingContainer"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "array"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "codingPath"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "count"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "currentIndex"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "decode"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "decodeIfPresent"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "decodeNil"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "deinit"]
+- !private ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "fatalError"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "init"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "isAtEnd"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "nestedContainer"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "nestedUnkeyedContainer"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "parsedElement"]
+- ["14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV", "superDecoder"]
+- !private ["s24UnkeyedDecodingContainerP", "InternalParseError"]
+- ["s24UnkeyedDecodingContainerP", ""]
+- !private ["s24UnkeyedDecodingContainerP", "array"]
+- ["s24UnkeyedDecodingContainerP", "codingPath"]
+- ["s24UnkeyedDecodingContainerP", "count"]
+- ["s24UnkeyedDecodingContainerP", "currentIndex"]
+- ["s24UnkeyedDecodingContainerP", "decode"]
+- ["s24UnkeyedDecodingContainerP", "decodeIfPresent"]
+- ["s24UnkeyedDecodingContainerP", "decodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "fatalError"]
+- !private ["s24UnkeyedDecodingContainerP", "init"]
+- ["s24UnkeyedDecodingContainerP", "isAtEnd"]
+- ["s24UnkeyedDecodingContainerP", "nestedContainer"]
+- ["s24UnkeyedDecodingContainerP", "nestedUnkeyedContainer"]
+- !private ["s24UnkeyedDecodingContainerP", "parsedElement"]
+- ["s24UnkeyedDecodingContainerP", "superDecoder"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "startIndex"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "startIndex"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "endIndex"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "startIndex"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "endIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "startIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "14ArgumentParser0A7DecoderC"
+- !private "14ArgumentParser0A18HelpOptionProviderP"
+- !private "Sa"
+- "14ArgumentParser12ArrayWrapperV"
+- "14ArgumentParser20ArrayWrapperProtocolP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "14ArgumentParser16DecodedArgumentsV"
+- "s7DecoderP"
+- !private "14ArgumentParser12ParsedValuesV7ElementV"
+- !private "SE"
+- !private "SQ"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- "s5ErrorP"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- "s5ErrorP"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- "s5ErrorP"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- "s5ErrorP"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- "s5ErrorP"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- !private "s5ErrorP"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- !private "s5ErrorP"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- !private "s5ErrorP"
+- "14ArgumentParser0A7DecoderC5ErrorO"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "14ArgumentParser8InputKeyV"
+- !private "14ArgumentParser11InputOriginV"
+- !private "14ArgumentParser18InternalParseErrorO"
+- !private "s22KeyedDecodingContainerV"
+- "s30KeyedDecodingContainerProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sq"
+- "14ArgumentParser24ParsedArgumentsContainerC"
+- "14ArgumentParser12ParsedValuesV"
+- !private "14ArgumentParser0B5ErrorO"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- "14ArgumentParser18SingleValueDecoderV0cD9ContainerV"
+- "14ArgumentParser18SingleValueDecoderV"
+- "s28SingleValueDecodingContainerP"
+- "14ArgumentParser18SingleValueDecoderV16UnkeyedContainerV"
+- "s24UnkeyedDecodingContainerP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7c75252d5b4e2070a2cc39d9ea45a8aa"

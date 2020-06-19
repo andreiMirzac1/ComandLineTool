@@ -1,0 +1,675 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArgumentDefinition"
+- "ArgumentHelpOptionProvider"
+provides-nominal:
+- "14ArgumentParser0A10DefinitionV"
+- "14ArgumentParser0A10DefinitionV6UpdateO"
+- "14ArgumentParser0A10DefinitionV4KindO"
+- "14ArgumentParser0A10DefinitionV4HelpV"
+- "14ArgumentParser0A10DefinitionV4HelpV7OptionsV"
+- "14ArgumentParser0A10DefinitionV15ParsingStrategyO"
+- "14ArgumentParser0A18HelpOptionProviderP"
+- "Sq"
+provides-member:
+- ["14ArgumentParser0A10DefinitionV", ""]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", ""]
+- ["14ArgumentParser0A10DefinitionV4KindO", ""]
+- ["14ArgumentParser0A10DefinitionV4HelpV", ""]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", ""]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", ""]
+- ["14ArgumentParser0A18HelpOptionProviderP", ""]
+- ["Sq", ""]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "init"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "init"]
+- ["14ArgumentParser0A10DefinitionV", "optional"]
+- ["14ArgumentParser0A10DefinitionV", "nonOptional"]
+- ["14ArgumentParser0A10DefinitionV", "isPositional"]
+- ["14ArgumentParser0A10DefinitionV", "isRepeatingPositional"]
+- ["14ArgumentParser0A10DefinitionV4KindO", "name"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "appendToArray"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+"
+- "<<"
+- "=="
+- !private "??"
+- "ArgumentDefinition"
+- "ArgumentHelp"
+- "ArgumentHelpOptionProvider"
+- "ArrayParsingStrategy"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "CustomDebugStringConvertible"
+- "ExpressibleByArgument"
+- !private "ExtendedGraphemeClusterType"
+- "FloatLiteralType"
+- "InputKey"
+- "InputOrigin"
+- "IntegerLiteralType"
+- "Name"
+- "NameSpecification"
+- "OptionSet"
+- "Optional"
+- "ParsedValues"
+- !private "ParserError"
+- "SingleValueParsingStrategy"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "preconditionFailure"
+depends-member:
+- ["14ArgumentParser0A10DefinitionV", "ArgumentDefinition"]
+- ["14ArgumentParser0A10DefinitionV", "ArgumentHelp"]
+- ["14ArgumentParser0A10DefinitionV", "Bool"]
+- ["14ArgumentParser0A10DefinitionV", "Help"]
+- ["14ArgumentParser0A10DefinitionV", "Initial"]
+- ["14ArgumentParser0A10DefinitionV", "InputKey"]
+- ["14ArgumentParser0A10DefinitionV", "InputOrigin"]
+- ["14ArgumentParser0A10DefinitionV", "Kind"]
+- ["14ArgumentParser0A10DefinitionV", "Name"]
+- ["14ArgumentParser0A10DefinitionV", "OptionSet"]
+- ["14ArgumentParser0A10DefinitionV", "ParsedValues"]
+- ["14ArgumentParser0A10DefinitionV", "ParsingStrategy"]
+- ["14ArgumentParser0A10DefinitionV", "String"]
+- ["14ArgumentParser0A10DefinitionV", "UInt"]
+- ["14ArgumentParser0A10DefinitionV", "Update"]
+- ["14ArgumentParser0A10DefinitionV", "Void"]
+- ["14ArgumentParser0A10DefinitionV", "debugDescription"]
+- ["14ArgumentParser0A10DefinitionV", "deinit"]
+- ["14ArgumentParser0A10DefinitionV", "help"]
+- ["14ArgumentParser0A10DefinitionV", "init"]
+- ["14ArgumentParser0A10DefinitionV", "initial"]
+- ["14ArgumentParser0A10DefinitionV", "isPositional"]
+- ["14ArgumentParser0A10DefinitionV", "isRepeatingPositional"]
+- ["14ArgumentParser0A10DefinitionV", "kind"]
+- ["14ArgumentParser0A10DefinitionV", "names"]
+- ["14ArgumentParser0A10DefinitionV", "nonOptional"]
+- ["14ArgumentParser0A10DefinitionV", "optional"]
+- ["14ArgumentParser0A10DefinitionV", "parsingStrategy"]
+- !private ["14ArgumentParser0A10DefinitionV", "preconditionFailure"]
+- !private ["14ArgumentParser0A10DefinitionV", "preferredNameForSynopsis"]
+- ["14ArgumentParser0A10DefinitionV", "update"]
+- ["14ArgumentParser0A10DefinitionV", "valueName"]
+- !private ["14ArgumentParser0A4HelpV", "valueName"]
+- ["14ArgumentParser0A18HelpOptionProviderP", "ArgumentDefinition"]
+- ["14ArgumentParser0A18HelpOptionProviderP", ""]
+- ["14ArgumentParser0A18HelpOptionProviderP", "helpOptions"]
+- !private ["Sa", "append"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "remaining"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "singleValue"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "unconditionalSingleValue"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "upToNextOption"]
+- !private ["SK", "append"]
+- !private ["SK", "convertedToSnakeCase"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "convertedToSnakeCase"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["Sl", "append"]
+- !private ["Sl", "convertedToSnakeCase"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["SL", "convertedToSnakeCase"]
+- !private ["SL", "synopsisString"]
+- !private ["SL", "valueString"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "Help"]
+- ["s28CustomDebugStringConvertibleP", "Kind"]
+- ["s28CustomDebugStringConvertibleP", "OptionSet"]
+- ["s28CustomDebugStringConvertibleP", "Update"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "convertedToSnakeCase"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "help"]
+- ["s28CustomDebugStringConvertibleP", "helpOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initial"]
+- !private ["s28CustomDebugStringConvertibleP", "isPositional"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "kind"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "parsingStrategy"]
+- !private ["s28CustomDebugStringConvertibleP", "preconditionFailure"]
+- !private ["s28CustomDebugStringConvertibleP", "preferredNameForSynopsis"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s28CustomDebugStringConvertibleP", "valueName"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "convertedToSnakeCase"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "helpOptions"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "convertedToSnakeCase"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "append"]
+- !private ["Se", "convertedToSnakeCase"]
+- !private ["Se", "first"]
+- ["Se", "helpOptions"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "convertedToSnakeCase"]
+- !private ["SE", "first"]
+- ["SE", "helpOptions"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "Element"]
+- ["SQ", "Options"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_ArrayLiteralElement"]
+- ["SQ", "_Default_Element"]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "allRemainingInput"]
+- !private ["SQ", "append"]
+- ["SQ", "contains"]
+- !private ["SQ", "convertedToSnakeCase"]
+- !private ["SQ", "first"]
+- ["SQ", "formIntersection"]
+- ["SQ", "formSymmetricDifference"]
+- ["SQ", "formUnion"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "helpOptions"]
+- ["SQ", "init"]
+- ["SQ", "insert"]
+- ["SQ", "intersection"]
+- ["SQ", "isDisjoint"]
+- ["SQ", "isEmpty"]
+- !private ["SQ", "isOptional"]
+- !private ["SQ", "isRepeating"]
+- ["SQ", "isSubset"]
+- ["SQ", "isSuperset"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- ["SQ", "next"]
+- !private ["SQ", "nextAsValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "remaining"]
+- ["SQ", "remove"]
+- ["SQ", "scanningForValue"]
+- ["SQ", "singleValue"]
+- ["SQ", "subtract"]
+- ["SQ", "subtracting"]
+- ["SQ", "symmetricDifference"]
+- !private ["SQ", "synopsisString"]
+- ["SQ", "unconditional"]
+- ["SQ", "unconditionalSingleValue"]
+- ["SQ", "union"]
+- ["SQ", "upToNextOption"]
+- ["SQ", "update"]
+- !private ["SQ", "valueString"]
+- !private ["s5ErrorP", "unableToParseValue"]
+- !private ["14ArgumentParser013ExpressibleByA0P", "convertedToSnakeCase"]
+- !private ["14ArgumentParser013ExpressibleByA0P", "init"]
+- ["s25ExpressibleByArrayLiteralP", "=="]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "Options"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "isOptional"]
+- !private ["s25ExpressibleByArrayLiteralP", "isRepeating"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeNames"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertedToSnakeCase"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "valueName"]
+- ["s23ExpressibleByNilLiteralP", "helpOptions"]
+- !private ["s32ExpressibleByStringInterpolationP", "convertedToSnakeCase"]
+- !private ["s32ExpressibleByStringInterpolationP", "valueName"]
+- !private ["s26ExpressibleByStringLiteralP", "convertedToSnakeCase"]
+- !private ["s26ExpressibleByStringLiteralP", "valueName"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "convertedToSnakeCase"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "valueName"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "allRemainingInput"]
+- !private ["SH", "append"]
+- !private ["SH", "convertedToSnakeCase"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "helpOptions"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- ["SH", "next"]
+- !private ["SH", "nextAsValue"]
+- ["SH", "remaining"]
+- ["SH", "scanningForValue"]
+- ["SH", "singleValue"]
+- ["SH", "unconditional"]
+- ["SH", "unconditionalSingleValue"]
+- ["SH", "upToNextOption"]
+- !private ["s6HasherV", "combine"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "ArgumentHelp"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "Bool"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "InputKey"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "OptionSet"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "Options"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "String"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "UInt"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "defaultValue"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "discussion"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "help"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "init"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "isComposite"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "keys"]
+- ["14ArgumentParser0A10DefinitionV4HelpV", "options"]
+- !private ["14ArgumentParser8InputKeyV", "deinit"]
+- !private ["14ArgumentParser8InputKeyV", "rawValue"]
+- ["14ArgumentParser0A10DefinitionV4KindO", "ArgumentDefinition"]
+- ["14ArgumentParser0A10DefinitionV4KindO", "InputKey"]
+- ["14ArgumentParser0A10DefinitionV4KindO", "Name"]
+- ["14ArgumentParser0A10DefinitionV4KindO", "NameSpecification"]
+- ["14ArgumentParser0A10DefinitionV4KindO", "name"]
+- ["14ArgumentParser0A10DefinitionV4KindO", "named"]
+- ["14ArgumentParser0A10DefinitionV4KindO", "positional"]
+- !private ["s25LosslessStringConvertibleP", "convertedToSnakeCase"]
+- !private ["s10MirrorPathP", "convertedToSnakeCase"]
+- !private ["SM", "append"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "convertedToSnakeCase"]
+- !private ["So9NSCopyingP", "convertedToSnakeCase"]
+- !private ["So21NSItemProviderReadingP", "convertedToSnakeCase"]
+- !private ["So21NSItemProviderWritingP", "convertedToSnakeCase"]
+- !private ["So16NSMutableCopyingP", "convertedToSnakeCase"]
+- !private ["So8NSObjectC", "convertedToSnakeCase"]
+- !private ["So8NSObjectP", "convertedToSnakeCase"]
+- !private ["So14NSSecureCodingP", "convertedToSnakeCase"]
+- !private ["So8NSStringC", "convertedToSnakeCase"]
+- !private ["14ArgumentParser4NameO", "synopsisString"]
+- !private ["14ArgumentParser4NameO", "valueString"]
+- !private ["14ArgumentParser17NameSpecificationV", "makeNames"]
+- ["s9OptionSetP", "=="]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "Options"]
+- ["s9OptionSetP", "RawValue"]
+- ["s9OptionSetP", ""]
+- ["s9OptionSetP", "_Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "_Default_Element"]
+- ["s9OptionSetP", "_Default_RawValue"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- !private ["s9OptionSetP", "isOptional"]
+- !private ["s9OptionSetP", "isRepeating"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- ["Sq", "ArgumentDefinition"]
+- ["Sq", "deinit"]
+- ["Sq", "helpOptions"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "=="]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "ArgumentHelpOptionProvider"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "ArrayLiteralElement"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "Element"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "Options"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "RawValue"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "UInt"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "_Default_ArrayLiteralElement"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "_Default_Element"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "_Default_RawValue"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "contains"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "deinit"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "formIntersection"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "formSymmetricDifference"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "formUnion"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "init"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "insert"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "intersection"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "isDisjoint"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "isEmpty"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "isOptional"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "isRepeating"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "isSubset"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "isSuperset"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "rawValue"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "remove"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "subtract"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "subtracting"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "symmetricDifference"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "union"]
+- ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "update"]
+- !private ["14ArgumentParser12ParsedValuesV", "update"]
+- !private ["14ArgumentParser0B5ErrorO", "deinit"]
+- !private ["14ArgumentParser0B5ErrorO", "unableToParseValue"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "=="]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "ArrayParsingStrategy"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "SingleValueParsingStrategy"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "__derived_enum_equals"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "_rawHashValue"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "allRemainingInput"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "deinit"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "hash"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "hashValue"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "init"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "nextAsValue"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "scanningForValue"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "unconditional"]
+- ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "upToNextOption"]
+- !private ["Sk", "append"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sm", "append"]
+- !private ["Sm", "convertedToSnakeCase"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- ["SY", "=="]
+- ["SY", "ArrayLiteralElement"]
+- ["SY", "Element"]
+- ["SY", "Options"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_ArrayLiteralElement"]
+- ["SY", "_Default_Element"]
+- ["SY", "_Default_RawValue"]
+- ["SY", "contains"]
+- ["SY", "formIntersection"]
+- ["SY", "formSymmetricDifference"]
+- ["SY", "formUnion"]
+- ["SY", "init"]
+- ["SY", "insert"]
+- ["SY", "intersection"]
+- ["SY", "isDisjoint"]
+- ["SY", "isEmpty"]
+- !private ["SY", "isOptional"]
+- !private ["SY", "isRepeating"]
+- ["SY", "isSubset"]
+- ["SY", "isSuperset"]
+- ["SY", "rawValue"]
+- ["SY", "remove"]
+- ["SY", "subtract"]
+- ["SY", "subtracting"]
+- ["SY", "symmetricDifference"]
+- ["SY", "union"]
+- ["SY", "update"]
+- !private ["ST", "append"]
+- !private ["ST", "convertedToSnakeCase"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- ["s10SetAlgebraP", "=="]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", "Options"]
+- ["s10SetAlgebraP", "RawValue"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "_Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "_Default_Element"]
+- ["s10SetAlgebraP", "_Default_RawValue"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- !private ["s10SetAlgebraP", "isOptional"]
+- !private ["s10SetAlgebraP", "isRepeating"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "next"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "scanningForValue"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "unconditional"]
+- !private ["SS", "convertedToSnakeCase"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "convertedToSnakeCase"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "convertedToSnakeCase"]
+- !private ["s20TextOutputStreamableP", "convertedToSnakeCase"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "ArgumentDefinition"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "ExpressibleByArgument"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "InputKey"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "InputOrigin"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "Name"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "Nullary"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "ParsedValues"]
+- !private ["14ArgumentParser0A10DefinitionV6UpdateO", "ParserError"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "String"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "Unary"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "Void"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "appendToArray"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "nullary"]
+- ["14ArgumentParser0A10DefinitionV6UpdateO", "unary"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "convertedToSnakeCase"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertedToSnakeCase"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "convertedToSnakeCase"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertedToSnakeCase"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "convertedToSnakeCase"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "convertedToSnakeCase"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "convertedToSnakeCase"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "convertedToSnakeCase"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "convertedToSnakeCase"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "helpOptions"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- "14ArgumentParser0A10DefinitionV"
+- !private "14ArgumentParser0A4HelpV"
+- "14ArgumentParser0A18HelpOptionProviderP"
+- !private "Sa"
+- "14ArgumentParser20ArrayParsingStrategyO"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "14ArgumentParser013ExpressibleByA0P"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "14ArgumentParser0A10DefinitionV4HelpV"
+- !private "14ArgumentParser8InputKeyV"
+- "14ArgumentParser0A10DefinitionV4KindO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "14ArgumentParser4NameO"
+- !private "14ArgumentParser17NameSpecificationV"
+- "s9OptionSetP"
+- "Sq"
+- "14ArgumentParser0A10DefinitionV4HelpV7OptionsV"
+- !private "14ArgumentParser12ParsedValuesV"
+- !private "14ArgumentParser0B5ErrorO"
+- "14ArgumentParser0A10DefinitionV15ParsingStrategyO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "s10SetAlgebraP"
+- "14ArgumentParser26SingleValueParsingStrategyO"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "14ArgumentParser0A10DefinitionV6UpdateO"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f0a4613df21073b79a935bca790856c4"

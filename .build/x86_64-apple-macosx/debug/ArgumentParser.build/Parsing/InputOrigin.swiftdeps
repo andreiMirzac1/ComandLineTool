@@ -1,0 +1,287 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InputOrigin"
+- "<"
+provides-nominal:
+- "14ArgumentParser11InputOriginV"
+- "14ArgumentParser11InputOriginV7ElementO"
+provides-member:
+- ["14ArgumentParser11InputOriginV", ""]
+- ["14ArgumentParser11InputOriginV7ElementO", ""]
+- ["14ArgumentParser11InputOriginV7ElementO", "<"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Comparable"
+- "Equatable"
+- "ExpressibleByArrayLiteral"
+- !private "FloatLiteralType"
+- "Hashable"
+- "InputOrigin"
+- !private "IntegerLiteralType"
+- "Self"
+- "Set"
+- "SplitArguments"
+- "Void"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Sa", "sorted"]
+- !private ["SK", "init"]
+- !private ["SK", "sorted"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "formUnion"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "formUnion"]
+- !private ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "sorted"]
+- ["SL", "<"]
+- ["SL", "<="]
+- ["SL", "=="]
+- ["SL", ">"]
+- ["SL", ">="]
+- ["SL", "Self"]
+- ["SL", ""]
+- ["SL", "_rawHashValue"]
+- ["SL", "argumentIndex"]
+- ["SL", "hash"]
+- ["SL", "hashValue"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "formUnion"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "formUnion"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "sorted"]
+- ["s23CustomStringConvertibleP", "Index"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "formUnion"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "sorted"]
+- !private ["Se", "contains"]
+- !private ["Se", "forEach"]
+- !private ["Se", "formUnion"]
+- !private ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "sorted"]
+- ["14ArgumentParser11InputOriginV7ElementO", "<"]
+- ["14ArgumentParser11InputOriginV7ElementO", "<="]
+- ["14ArgumentParser11InputOriginV7ElementO", "=="]
+- ["14ArgumentParser11InputOriginV7ElementO", ">"]
+- ["14ArgumentParser11InputOriginV7ElementO", ">="]
+- ["14ArgumentParser11InputOriginV7ElementO", "Bool"]
+- ["14ArgumentParser11InputOriginV7ElementO", "Self"]
+- ["14ArgumentParser11InputOriginV7ElementO", "SplitArguments"]
+- ["14ArgumentParser11InputOriginV7ElementO", "__derived_enum_equals"]
+- ["14ArgumentParser11InputOriginV7ElementO", "_rawHashValue"]
+- ["14ArgumentParser11InputOriginV7ElementO", "argumentIndex"]
+- ["14ArgumentParser11InputOriginV7ElementO", "deinit"]
+- ["14ArgumentParser11InputOriginV7ElementO", "hash"]
+- ["14ArgumentParser11InputOriginV7ElementO", "hashValue"]
+- !private ["SE", "contains"]
+- !private ["SE", "forEach"]
+- !private ["SE", "formUnion"]
+- !private ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "sorted"]
+- ["SQ", "<"]
+- ["SQ", "<="]
+- ["SQ", "=="]
+- ["SQ", ">"]
+- ["SQ", ">="]
+- !private ["SQ", "Array"]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "Self"]
+- !private ["SQ", "Set"]
+- ["SQ", ""]
+- ["SQ", "_Default_ArrayLiteralElement"]
+- !private ["SQ", "_elements"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "argumentIndex"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "formUnion"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "sorted"]
+- ["s25ExpressibleByArrayLiteralP", "=="]
+- !private ["s25ExpressibleByArrayLiteralP", "Array"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Self"]
+- !private ["s25ExpressibleByArrayLiteralP", "Set"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "_elements"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- ["SH", "<"]
+- ["SH", "<="]
+- ["SH", "=="]
+- ["SH", ">"]
+- ["SH", ">="]
+- ["SH", "Self"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "argumentIndex"]
+- !private ["SH", "contains"]
+- !private ["SH", "forEach"]
+- !private ["SH", "formUnion"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "sorted"]
+- !private ["s6HasherV", "combine"]
+- ["14ArgumentParser14SplitArgumentsV5IndexV", "deinit"]
+- ["14ArgumentParser11InputOriginV", "=="]
+- !private ["14ArgumentParser11InputOriginV", "Array"]
+- ["14ArgumentParser11InputOriginV", "ArrayLiteralElement"]
+- ["14ArgumentParser11InputOriginV", "Comparable"]
+- ["14ArgumentParser11InputOriginV", "Element"]
+- ["14ArgumentParser11InputOriginV", "Hashable"]
+- ["14ArgumentParser11InputOriginV", "InputOrigin"]
+- ["14ArgumentParser11InputOriginV", "Self"]
+- ["14ArgumentParser11InputOriginV", "Set"]
+- ["14ArgumentParser11InputOriginV", "SplitArguments"]
+- ["14ArgumentParser11InputOriginV", "Void"]
+- ["14ArgumentParser11InputOriginV", "_Default_ArrayLiteralElement"]
+- ["14ArgumentParser11InputOriginV", "__derived_struct_equals"]
+- !private ["14ArgumentParser11InputOriginV", "_elements"]
+- ["14ArgumentParser11InputOriginV", "deinit"]
+- ["14ArgumentParser11InputOriginV", "elements"]
+- ["14ArgumentParser11InputOriginV", "forEach"]
+- ["14ArgumentParser11InputOriginV", "formUnion"]
+- ["14ArgumentParser11InputOriginV", "init"]
+- ["14ArgumentParser11InputOriginV", "insert"]
+- ["14ArgumentParser11InputOriginV", "inserting"]
+- !private ["SM", "init"]
+- !private ["SM", "sorted"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "sorted"]
+- !private ["Sk", "init"]
+- !private ["Sk", "sorted"]
+- !private ["Sm", "init"]
+- !private ["Sm", "sorted"]
+- !private ["ST", "contains"]
+- !private ["ST", "forEach"]
+- !private ["ST", "formUnion"]
+- !private ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "sorted"]
+- !private ["Sh", "contains"]
+- !private ["Sh", "forEach"]
+- !private ["Sh", "formUnion"]
+- !private ["Sh", "init"]
+- !private ["Sh", "insert"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "forEach"]
+- !private ["s10SetAlgebraP", "formUnion"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- ["14ArgumentParser14SplitArgumentsV", "Index"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "formUnion"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "formUnion"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "14ArgumentParser11InputOriginV7ElementO"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "14ArgumentParser14SplitArgumentsV5IndexV"
+- "14ArgumentParser11InputOriginV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- "14ArgumentParser14SplitArgumentsV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "928a26506547a4584294589461c44652"

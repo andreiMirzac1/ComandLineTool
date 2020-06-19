@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "f8e9a406af52681e85a4cda75c336def"
+build_time: [1592569323, 595128000]
+inputs:
+  "/Users/andreimirzac/Repos/FillHolesCommandLineTool/Sources/HoleFillingTool/main.swift": [1592569200, 814703863]

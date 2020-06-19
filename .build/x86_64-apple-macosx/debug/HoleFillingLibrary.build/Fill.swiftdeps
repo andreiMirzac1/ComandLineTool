@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Fill"
+provides-nominal:
+- "18HoleFillingLibrary4FillV"
+provides-member:
+- ["18HoleFillingLibrary4FillV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Argument"
+- "Bool"
+- "CommandConfiguration"
+- "Fill"
+- "Flag"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "ParsableCommand"
+- "String"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- ["14ArgumentParser0A0V", "init"]
+- ["14ArgumentParser0A0V", "wrappedValue"]
+- ["14ArgumentParser0A11SetProviderP", "init"]
+- ["14ArgumentParser0A11SetProviderP", "wrappedValue"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["14ArgumentParser20CommandConfigurationV", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "wrappedValue"]
+- ["Se", "Argument"]
+- ["Se", "CommandConfiguration"]
+- ["Se", "Flag"]
+- ["Se", ""]
+- ["Se", "_commandName"]
+- !private ["Se", "_orgImageName"]
+- !private ["Se", "_verbose"]
+- ["Se", "configuration"]
+- ["Se", "init"]
+- ["Se", "run"]
+- ["Se", "validate"]
+- ["Se", "wrappedValue"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "init"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "wrappedValue"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- ["s25ExpressibleByArrayLiteralP", "long"]
+- ["18HoleFillingLibrary4FillV", "Argument"]
+- ["18HoleFillingLibrary4FillV", "Bool"]
+- ["18HoleFillingLibrary4FillV", "CommandConfiguration"]
+- ["18HoleFillingLibrary4FillV", "Flag"]
+- ["18HoleFillingLibrary4FillV", "String"]
+- ["18HoleFillingLibrary4FillV", "_commandName"]
+- !private ["18HoleFillingLibrary4FillV", "_orgImageName"]
+- !private ["18HoleFillingLibrary4FillV", "_verbose"]
+- ["18HoleFillingLibrary4FillV", "configuration"]
+- ["18HoleFillingLibrary4FillV", "deinit"]
+- ["18HoleFillingLibrary4FillV", "init"]
+- !private ["18HoleFillingLibrary4FillV", "orgImageName"]
+- ["18HoleFillingLibrary4FillV", "run"]
+- ["18HoleFillingLibrary4FillV", "validate"]
+- !private ["18HoleFillingLibrary4FillV", "verbose"]
+- ["14ArgumentParser4FlagV", "init"]
+- ["14ArgumentParser4FlagV", "wrappedValue"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["14ArgumentParser17NameSpecificationV", "long"]
+- ["14ArgumentParser17ParsableArgumentsP", "Argument"]
+- ["14ArgumentParser17ParsableArgumentsP", "CommandConfiguration"]
+- ["14ArgumentParser17ParsableArgumentsP", "Flag"]
+- ["14ArgumentParser17ParsableArgumentsP", ""]
+- ["14ArgumentParser17ParsableArgumentsP", "_commandName"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_orgImageName"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_verbose"]
+- ["14ArgumentParser17ParsableArgumentsP", "configuration"]
+- ["14ArgumentParser17ParsableArgumentsP", "init"]
+- ["14ArgumentParser17ParsableArgumentsP", "run"]
+- ["14ArgumentParser17ParsableArgumentsP", "validate"]
+- ["14ArgumentParser15ParsableCommandP", "Argument"]
+- ["14ArgumentParser15ParsableCommandP", "CommandConfiguration"]
+- ["14ArgumentParser15ParsableCommandP", "Flag"]
+- ["14ArgumentParser15ParsableCommandP", ""]
+- ["14ArgumentParser15ParsableCommandP", "_commandName"]
+- !private ["14ArgumentParser15ParsableCommandP", "_orgImageName"]
+- !private ["14ArgumentParser15ParsableCommandP", "_verbose"]
+- ["14ArgumentParser15ParsableCommandP", "configuration"]
+- ["14ArgumentParser15ParsableCommandP", "init"]
+- ["14ArgumentParser15ParsableCommandP", "run"]
+- ["14ArgumentParser15ParsableCommandP", "validate"]
+- ["14ArgumentParser13ParsedWrapperP", "init"]
+- ["14ArgumentParser13ParsedWrapperP", "wrappedValue"]
+depends-nominal:
+- "14ArgumentParser0A0V"
+- "14ArgumentParser0A11SetProviderP"
+- "s9CodingKeyP"
+- "14ArgumentParser20CommandConfigurationV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "14ArgumentParser22DecodableParsedWrapperP"
+- !private "s7DecoderP"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "18HoleFillingLibrary4FillV"
+- "14ArgumentParser4FlagV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "14ArgumentParser17NameSpecificationV"
+- "14ArgumentParser17ParsableArgumentsP"
+- "14ArgumentParser15ParsableCommandP"
+- "14ArgumentParser13ParsedWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "9f593ca4674c640e2f31d9393b13044c"

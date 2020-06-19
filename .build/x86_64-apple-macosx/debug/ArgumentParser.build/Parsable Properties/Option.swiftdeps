@@ -1,0 +1,399 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Option"
+- "SingleValueParsingStrategy"
+- "ArrayParsingStrategy"
+provides-nominal:
+- "14ArgumentParser6OptionV"
+- "14ArgumentParser26SingleValueParsingStrategyO"
+- "14ArgumentParser20ArrayParsingStrategyO"
+provides-member:
+- ["14ArgumentParser6OptionV", ""]
+- ["14ArgumentParser26SingleValueParsingStrategyO", ""]
+- ["14ArgumentParser20ArrayParsingStrategyO", ""]
+- ["14ArgumentParser6OptionV", "init"]
+- ["14ArgumentParser6OptionV", "init"]
+- ["14ArgumentParser6OptionV", "init"]
+- ["14ArgumentParser6OptionV", "init"]
+- ["14ArgumentParser6OptionV", "init"]
+- ["14ArgumentParser6OptionV", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- !private "ArgumentDefinition"
+- "ArgumentHelp"
+- !private "ArgumentSet"
+- "Array"
+- "ArrayParsingStrategy"
+- "AssignmentPrecedence"
+- "CustomStringConvertible"
+- "Decodable"
+- "DecodableParsedWrapper"
+- "Decoder"
+- "ExpressibleByArgument"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NameSpecification"
+- "Option"
+- "Parsed"
+- "ParsedWrapper"
+- !private "ParserError"
+- "SingleValueParsingStrategy"
+- "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- !private "directlyInitializedError"
+- !private "fatalError"
+depends-member:
+- !private ["14ArgumentParser0A10DefinitionV", "Help"]
+- !private ["14ArgumentParser0A10DefinitionV", "Kind"]
+- !private ["14ArgumentParser0A10DefinitionV", "ParsingStrategy"]
+- !private ["14ArgumentParser0A10DefinitionV", "help"]
+- !private ["14ArgumentParser0A10DefinitionV", "init"]
+- !private ["14ArgumentParser0A10DefinitionV", "optional"]
+- !private ["14ArgumentParser0A18HelpOptionProviderP", "map"]
+- !private ["14ArgumentParser0A3SetV", "init"]
+- !private ["14ArgumentParser0A11SetProviderP", "ArgumentDefinition"]
+- !private ["14ArgumentParser0A11SetProviderP", "ArgumentSet"]
+- !private ["14ArgumentParser0A11SetProviderP", "ParserError"]
+- !private ["14ArgumentParser0A11SetProviderP", "String"]
+- ["14ArgumentParser0A11SetProviderP", "Value"]
+- ["14ArgumentParser0A11SetProviderP", ""]
+- ["14ArgumentParser0A11SetProviderP", "_Default_Value"]
+- ["14ArgumentParser0A11SetProviderP", "_parsedValue"]
+- ["14ArgumentParser0A11SetProviderP", "argumentSet"]
+- ["14ArgumentParser0A11SetProviderP", "description"]
+- !private ["14ArgumentParser0A11SetProviderP", "directlyInitializedError"]
+- !private ["14ArgumentParser0A11SetProviderP", "fatalError"]
+- ["14ArgumentParser0A11SetProviderP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "=="]
+- ["14ArgumentParser20ArrayParsingStrategyO", "__derived_enum_equals"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "_rawHashValue"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "deinit"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "hash"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "hashValue"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "remaining"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "singleValue"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "unconditionalSingleValue"]
+- ["14ArgumentParser20ArrayParsingStrategyO", "upToNextOption"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Help"]
+- !private ["s28CustomDebugStringConvertibleP", "Kind"]
+- !private ["s28CustomDebugStringConvertibleP", "ParsingStrategy"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "help"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "optional"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "ArgumentDefinition"]
+- !private ["s23CustomStringConvertibleP", "ArgumentSet"]
+- !private ["s23CustomStringConvertibleP", "ParserError"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "Value"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_Value"]
+- ["s23CustomStringConvertibleP", "_parsedValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "argumentSet"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "directlyInitializedError"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "ArgumentDefinition"]
+- !private ["Se", "ArgumentSet"]
+- !private ["Se", "ParserError"]
+- !private ["Se", "String"]
+- ["Se", "Value"]
+- ["Se", ""]
+- ["Se", "_Default_Value"]
+- ["Se", "_parsedValue"]
+- !private ["Se", "append"]
+- ["Se", "argumentSet"]
+- ["Se", "description"]
+- !private ["Se", "directlyInitializedError"]
+- !private ["Se", "fatalError"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["14ArgumentParser22DecodableParsedWrapperP", "ArgumentDefinition"]
+- !private ["14ArgumentParser22DecodableParsedWrapperP", "ArgumentSet"]
+- !private ["14ArgumentParser22DecodableParsedWrapperP", "ParserError"]
+- !private ["14ArgumentParser22DecodableParsedWrapperP", "String"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "Value"]
+- ["14ArgumentParser22DecodableParsedWrapperP", ""]
+- ["14ArgumentParser22DecodableParsedWrapperP", "_Default_Value"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "_parsedValue"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "argumentSet"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "description"]
+- !private ["14ArgumentParser22DecodableParsedWrapperP", "directlyInitializedError"]
+- !private ["14ArgumentParser22DecodableParsedWrapperP", "fatalError"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "formUnion"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isOptional"]
+- !private ["SQ", "isRepeating"]
+- !private ["SQ", "map"]
+- !private ["SQ", "next"]
+- !private ["SQ", "singleValue"]
+- !private ["s5ErrorP", "unableToParseValue"]
+- !private ["14ArgumentParser013ExpressibleByA0P", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isOptional"]
+- !private ["s25ExpressibleByArrayLiteralP", "isRepeating"]
+- !private ["s25ExpressibleByArrayLiteralP", "long"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "next"]
+- !private ["SH", "singleValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV", "Options"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV", "defaultValue"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV", "help"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV", "init"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV", "options"]
+- !private ["14ArgumentParser0A10DefinitionV4KindO", "name"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["14ArgumentParser17NameSpecificationV", "long"]
+- !private ["14ArgumentParser6OptionV", "ArgumentDefinition"]
+- ["14ArgumentParser6OptionV", "ArgumentHelp"]
+- !private ["14ArgumentParser6OptionV", "ArgumentSet"]
+- ["14ArgumentParser6OptionV", "Array"]
+- ["14ArgumentParser6OptionV", "ArrayParsingStrategy"]
+- ["14ArgumentParser6OptionV", "Decodable"]
+- ["14ArgumentParser6OptionV", "Decoder"]
+- ["14ArgumentParser6OptionV", "ExpressibleByArgument"]
+- ["14ArgumentParser6OptionV", "NameSpecification"]
+- ["14ArgumentParser6OptionV", "Parsed"]
+- !private ["14ArgumentParser6OptionV", "ParserError"]
+- ["14ArgumentParser6OptionV", "SingleValueParsingStrategy"]
+- ["14ArgumentParser6OptionV", "String"]
+- ["14ArgumentParser6OptionV", "Value"]
+- ["14ArgumentParser6OptionV", "_Default_Value"]
+- ["14ArgumentParser6OptionV", "_parsedValue"]
+- ["14ArgumentParser6OptionV", "argumentSet"]
+- ["14ArgumentParser6OptionV", "deinit"]
+- ["14ArgumentParser6OptionV", "description"]
+- !private ["14ArgumentParser6OptionV", "directlyInitializedError"]
+- !private ["14ArgumentParser6OptionV", "fatalError"]
+- ["14ArgumentParser6OptionV", "init"]
+- ["14ArgumentParser6OptionV", "projectedValue"]
+- ["14ArgumentParser6OptionV", "wrappedValue"]
+- ["14ArgumentParser6OptionV", "wrapperValue"]
+- !private ["s9OptionSetP", "formUnion"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "isOptional"]
+- !private ["s9OptionSetP", "isRepeating"]
+- !private ["Sq", "map"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "deinit"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "formUnion"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "init"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "isOptional"]
+- !private ["14ArgumentParser0A10DefinitionV4HelpV7OptionsV", "isRepeating"]
+- ["14ArgumentParser6ParsedO", "definition"]
+- !private ["14ArgumentParser6ParsedO", "init"]
+- ["14ArgumentParser6ParsedO", "value"]
+- !private ["14ArgumentParser12ParsedValuesV", "set"]
+- !private ["14ArgumentParser12ParsedValuesV", "update"]
+- !private ["14ArgumentParser13ParsedWrapperP", "ArgumentDefinition"]
+- !private ["14ArgumentParser13ParsedWrapperP", "ArgumentSet"]
+- !private ["14ArgumentParser13ParsedWrapperP", "ParserError"]
+- !private ["14ArgumentParser13ParsedWrapperP", "String"]
+- ["14ArgumentParser13ParsedWrapperP", "Value"]
+- ["14ArgumentParser13ParsedWrapperP", ""]
+- ["14ArgumentParser13ParsedWrapperP", "_Default_Value"]
+- ["14ArgumentParser13ParsedWrapperP", "_parsedValue"]
+- ["14ArgumentParser13ParsedWrapperP", "argumentSet"]
+- ["14ArgumentParser13ParsedWrapperP", "description"]
+- !private ["14ArgumentParser13ParsedWrapperP", "directlyInitializedError"]
+- !private ["14ArgumentParser13ParsedWrapperP", "fatalError"]
+- ["14ArgumentParser13ParsedWrapperP", "init"]
+- !private ["14ArgumentParser0B5ErrorO", "deinit"]
+- !private ["14ArgumentParser0B5ErrorO", "unableToParseValue"]
+- !private ["14ArgumentParser0A10DefinitionV15ParsingStrategyO", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["SY", "formUnion"]
+- !private ["SY", "init"]
+- !private ["SY", "isOptional"]
+- !private ["SY", "isRepeating"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["s10SetAlgebraP", "formUnion"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "isOptional"]
+- !private ["s10SetAlgebraP", "isRepeating"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "=="]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "__derived_enum_equals"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "_rawHashValue"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "deinit"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "hash"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "hashValue"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "next"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "scanningForValue"]
+- ["14ArgumentParser26SingleValueParsingStrategyO", "unconditional"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["14ArgumentParser0A10DefinitionV6UpdateO", "appendToArray"]
+- !private ["14ArgumentParser0A10DefinitionV6UpdateO", "unary"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "14ArgumentParser0A10DefinitionV"
+- !private "14ArgumentParser0A18HelpOptionProviderP"
+- !private "14ArgumentParser0A3SetV"
+- "14ArgumentParser0A11SetProviderP"
+- !private "Sa"
+- "14ArgumentParser20ArrayParsingStrategyO"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "14ArgumentParser22DecodableParsedWrapperP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "14ArgumentParser013ExpressibleByA0P"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "14ArgumentParser0A10DefinitionV4HelpV"
+- !private "14ArgumentParser0A10DefinitionV4KindO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "14ArgumentParser17NameSpecificationV"
+- "14ArgumentParser6OptionV"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "14ArgumentParser0A10DefinitionV4HelpV7OptionsV"
+- "14ArgumentParser6ParsedO"
+- !private "14ArgumentParser12ParsedValuesV"
+- "14ArgumentParser13ParsedWrapperP"
+- !private "14ArgumentParser0B5ErrorO"
+- !private "14ArgumentParser0A10DefinitionV15ParsingStrategyO"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- "14ArgumentParser26SingleValueParsingStrategyO"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "14ArgumentParser0A10DefinitionV6UpdateO"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "72899bc9850df0d755d3e583481a8c94"

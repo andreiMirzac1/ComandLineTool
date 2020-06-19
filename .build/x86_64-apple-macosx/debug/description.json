@@ -1,0 +1,22 @@
+{
+  "allExecutables" : [
+    "HoleFillingTool"
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+    "HoleFillingTool"
+  ],
+  "swiftTargetMap" : {
+    "C.ArgumentParser-debug.module" : "ArgumentParser",
+    "C.HoleFillingLibrary-debug.module" : "HoleFillingLibrary",
+    "C.HoleFillingTool-debug.module" : "HoleFillingTool"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

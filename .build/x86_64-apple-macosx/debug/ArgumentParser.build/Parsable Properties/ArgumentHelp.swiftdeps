@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArgumentHelp"
+provides-nominal:
+- "14ArgumentParser0A4HelpV"
+provides-member:
+- ["14ArgumentParser0A4HelpV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ArgumentHelp"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ExpressibleByStringInterpolation"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["14ArgumentParser0A4HelpV", "ArgumentHelp"]
+- ["14ArgumentParser0A4HelpV", "Bool"]
+- ["14ArgumentParser0A4HelpV", "ExtendedGraphemeClusterLiteralType"]
+- ["14ArgumentParser0A4HelpV", "String"]
+- ["14ArgumentParser0A4HelpV", "StringInterpolation"]
+- ["14ArgumentParser0A4HelpV", "StringLiteralType"]
+- ["14ArgumentParser0A4HelpV", "UnicodeScalarLiteralType"]
+- ["14ArgumentParser0A4HelpV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["14ArgumentParser0A4HelpV", "_Default_StringInterpolation"]
+- ["14ArgumentParser0A4HelpV", "_Default_StringLiteralType"]
+- ["14ArgumentParser0A4HelpV", "_Default_UnicodeScalarLiteralType"]
+- ["14ArgumentParser0A4HelpV", "abstract"]
+- ["14ArgumentParser0A4HelpV", "deinit"]
+- ["14ArgumentParser0A4HelpV", "discussion"]
+- ["14ArgumentParser0A4HelpV", "hidden"]
+- ["14ArgumentParser0A4HelpV", "init"]
+- ["14ArgumentParser0A4HelpV", "shouldDisplay"]
+- ["14ArgumentParser0A4HelpV", "valueName"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ArgumentHelp"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringInterpolation"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringInterpolation"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "abstract"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "discussion"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "shouldDisplay"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "valueName"]
+- !private ["s32ExpressibleByStringInterpolationP", "ArgumentHelp"]
+- ["s32ExpressibleByStringInterpolationP", "ExtendedGraphemeClusterLiteralType"]
+- ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", "StringLiteralType"]
+- ["s32ExpressibleByStringInterpolationP", "UnicodeScalarLiteralType"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s32ExpressibleByStringInterpolationP", "_Default_StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", "_Default_StringLiteralType"]
+- ["s32ExpressibleByStringInterpolationP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s32ExpressibleByStringInterpolationP", "abstract"]
+- !private ["s32ExpressibleByStringInterpolationP", "discussion"]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "shouldDisplay"]
+- !private ["s32ExpressibleByStringInterpolationP", "valueName"]
+- !private ["s26ExpressibleByStringLiteralP", "ArgumentHelp"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "StringInterpolation"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringInterpolation"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "abstract"]
+- !private ["s26ExpressibleByStringLiteralP", "discussion"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "shouldDisplay"]
+- !private ["s26ExpressibleByStringLiteralP", "valueName"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ArgumentHelp"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringInterpolation"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringInterpolation"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "abstract"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "discussion"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "shouldDisplay"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "valueName"]
+depends-nominal:
+- "14ArgumentParser0A4HelpV"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "61517a7e649d3216b403d31eb8e314bf"

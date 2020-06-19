@@ -1,0 +1,202 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ValidationError"
+- "ExitCode"
+- "CleanExit"
+provides-nominal:
+- "14ArgumentParser15ValidationErrorV"
+- "14ArgumentParser8ExitCodeV"
+- "14ArgumentParser9CleanExitO"
+provides-member:
+- ["14ArgumentParser15ValidationErrorV", ""]
+- ["14ArgumentParser8ExitCodeV", ""]
+- ["14ArgumentParser9CleanExitO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CleanExit"
+- "CustomStringConvertible"
+- "EXIT_FAILURE"
+- "EXIT_SUCCESS"
+- "EX_USAGE"
+- "Error"
+- "ExitCode"
+- "Hashable"
+- "Int32"
+- "ParsableCommand"
+- "RawRepresentable"
+- !private "Self"
+- "String"
+- !private "StringLiteralType"
+- "ValidationError"
+- !private "type"
+depends-member:
+- ["14ArgumentParser9CleanExitO", "CleanExit"]
+- ["14ArgumentParser9CleanExitO", "ParsableCommand"]
+- ["14ArgumentParser9CleanExitO", "String"]
+- ["14ArgumentParser9CleanExitO", "_code"]
+- ["14ArgumentParser9CleanExitO", "_domain"]
+- ["14ArgumentParser9CleanExitO", "_getEmbeddedNSError"]
+- ["14ArgumentParser9CleanExitO", "_userInfo"]
+- ["14ArgumentParser9CleanExitO", "deinit"]
+- ["14ArgumentParser9CleanExitO", "description"]
+- ["14ArgumentParser9CleanExitO", "helpRequest"]
+- ["14ArgumentParser9CleanExitO", "message"]
+- !private ["14ArgumentParser9CleanExitO", "type"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "helpRequest"]
+- ["s23CustomStringConvertibleP", "message"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- ["SQ", "=="]
+- ["SQ", "EXIT_FAILURE"]
+- ["SQ", "EXIT_SUCCESS"]
+- ["SQ", "EX_USAGE"]
+- ["SQ", "ExitCode"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "Self"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "success"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", "EXIT_FAILURE"]
+- ["s5ErrorP", "EXIT_SUCCESS"]
+- ["s5ErrorP", "EX_USAGE"]
+- ["s5ErrorP", "ExitCode"]
+- ["s5ErrorP", "RawValue"]
+- !private ["s5ErrorP", "Self"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_Default_RawValue"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "helpRequest"]
+- ["s5ErrorP", "init"]
+- ["s5ErrorP", "message"]
+- ["s5ErrorP", "rawValue"]
+- !private ["s5ErrorP", "success"]
+- !private ["s5ErrorP", "type"]
+- ["14ArgumentParser8ExitCodeV", "=="]
+- ["14ArgumentParser8ExitCodeV", "Bool"]
+- ["14ArgumentParser8ExitCodeV", "EXIT_FAILURE"]
+- ["14ArgumentParser8ExitCodeV", "EXIT_SUCCESS"]
+- ["14ArgumentParser8ExitCodeV", "EX_USAGE"]
+- ["14ArgumentParser8ExitCodeV", "ExitCode"]
+- ["14ArgumentParser8ExitCodeV", "Int32"]
+- ["14ArgumentParser8ExitCodeV", "RawValue"]
+- !private ["14ArgumentParser8ExitCodeV", "Self"]
+- ["14ArgumentParser8ExitCodeV", "_Default_RawValue"]
+- ["14ArgumentParser8ExitCodeV", "_code"]
+- ["14ArgumentParser8ExitCodeV", "_domain"]
+- ["14ArgumentParser8ExitCodeV", "_getEmbeddedNSError"]
+- ["14ArgumentParser8ExitCodeV", "_rawHashValue"]
+- ["14ArgumentParser8ExitCodeV", "_userInfo"]
+- ["14ArgumentParser8ExitCodeV", "deinit"]
+- ["14ArgumentParser8ExitCodeV", "failure"]
+- ["14ArgumentParser8ExitCodeV", "hash"]
+- ["14ArgumentParser8ExitCodeV", "hashValue"]
+- ["14ArgumentParser8ExitCodeV", "init"]
+- ["14ArgumentParser8ExitCodeV", "isSuccess"]
+- ["14ArgumentParser8ExitCodeV", "rawValue"]
+- ["14ArgumentParser8ExitCodeV", "success"]
+- ["14ArgumentParser8ExitCodeV", "validationFailure"]
+- ["SH", "=="]
+- ["SH", "EXIT_FAILURE"]
+- ["SH", "EXIT_SUCCESS"]
+- ["SH", "EX_USAGE"]
+- ["SH", "ExitCode"]
+- ["SH", "RawValue"]
+- !private ["SH", "Self"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["SH", "success"]
+- ["SY", "=="]
+- ["SY", "EXIT_FAILURE"]
+- ["SY", "EXIT_SUCCESS"]
+- ["SY", "EX_USAGE"]
+- ["SY", "ExitCode"]
+- ["SY", "RawValue"]
+- !private ["SY", "Self"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_code"]
+- ["SY", "_domain"]
+- ["SY", "_getEmbeddedNSError"]
+- ["SY", "_rawHashValue"]
+- ["SY", "_userInfo"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "success"]
+- ["14ArgumentParser15ValidationErrorV", "String"]
+- ["14ArgumentParser15ValidationErrorV", "_code"]
+- ["14ArgumentParser15ValidationErrorV", "_domain"]
+- ["14ArgumentParser15ValidationErrorV", "_getEmbeddedNSError"]
+- ["14ArgumentParser15ValidationErrorV", "_userInfo"]
+- ["14ArgumentParser15ValidationErrorV", "deinit"]
+- ["14ArgumentParser15ValidationErrorV", "description"]
+- ["14ArgumentParser15ValidationErrorV", "init"]
+- ["14ArgumentParser15ValidationErrorV", "message"]
+depends-nominal:
+- "14ArgumentParser9CleanExitO"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s5ErrorP"
+- "14ArgumentParser8ExitCodeV"
+- "SH"
+- "SY"
+- "14ArgumentParser15ValidationErrorV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d3c715d4ec1dda28de72f8186ca0e534"

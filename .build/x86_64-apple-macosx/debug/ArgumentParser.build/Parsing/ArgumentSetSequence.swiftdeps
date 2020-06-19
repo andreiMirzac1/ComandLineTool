@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "14ArgumentParser0A3SetV"
+- "14ArgumentParser0A3SetV8IteratorV"
+- "14ArgumentParser0A3SetV8IteratorV7ContentO"
+provides-member:
+- ["14ArgumentParser0A3SetV", ""]
+- ["14ArgumentParser0A3SetV8IteratorV", ""]
+- ["14ArgumentParser0A3SetV8IteratorV7ContentO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "..<"
+- "ArgumentDefinition"
+- "ArgumentSet"
+- "ArraySlice"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "IteratorProtocol"
+- "Sequence"
+depends-member:
+- ["14ArgumentParser0A3SetV", "ArgumentDefinition"]
+- ["14ArgumentParser0A3SetV", "ArgumentSet"]
+- ["14ArgumentParser0A3SetV", "ArraySlice"]
+- ["14ArgumentParser0A3SetV", "Element"]
+- ["14ArgumentParser0A3SetV", "Int"]
+- ["14ArgumentParser0A3SetV", "Iterator"]
+- ["14ArgumentParser0A3SetV", "IteratorProtocol"]
+- ["14ArgumentParser0A3SetV", "_Default_Element"]
+- ["14ArgumentParser0A3SetV", "_copyContents"]
+- ["14ArgumentParser0A3SetV", "_copyToContiguousArray"]
+- ["14ArgumentParser0A3SetV", "_customContainsEquatableElement"]
+- !private ["14ArgumentParser0A3SetV", "content"]
+- ["14ArgumentParser0A3SetV", "deinit"]
+- ["14ArgumentParser0A3SetV", "makeIterator"]
+- ["14ArgumentParser0A3SetV", "underestimatedCount"]
+- ["14ArgumentParser0A3SetV", "withContiguousStorageIfAvailable"]
+- !private ["Sa", "endIndex"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "startIndex"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "isEmpty"]
+- !private ["s10ArraySliceV", "remove"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "remove"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "endIndex"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "startIndex"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- ["14ArgumentParser0A3SetV8IteratorV7ContentO", "ArgumentDefinition"]
+- ["14ArgumentParser0A3SetV8IteratorV7ContentO", "ArraySlice"]
+- ["14ArgumentParser0A3SetV8IteratorV7ContentO", "Iterator"]
+- ["14ArgumentParser0A3SetV7ContentO", "arguments"]
+- ["14ArgumentParser0A3SetV8IteratorV7ContentO", "arguments"]
+- ["14ArgumentParser0A3SetV8IteratorV7ContentO", "empty"]
+- ["14ArgumentParser0A3SetV7ContentO", "sets"]
+- ["14ArgumentParser0A3SetV8IteratorV7ContentO", "sets"]
+- !private ["10Foundation15ContiguousBytesP", "endIndex"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "startIndex"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- ["s28CustomDebugStringConvertibleP", "Iterator"]
+- ["s28CustomDebugStringConvertibleP", "_Default_Element"]
+- ["s28CustomDebugStringConvertibleP", "_copyContents"]
+- ["s28CustomDebugStringConvertibleP", "_copyToContiguousArray"]
+- ["s28CustomDebugStringConvertibleP", "_customContainsEquatableElement"]
+- !private ["s28CustomDebugStringConvertibleP", "content"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "underestimatedCount"]
+- ["s28CustomDebugStringConvertibleP", "withContiguousStorageIfAvailable"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "endIndex"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["10Foundation12DataProtocolP", "startIndex"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "endIndex"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "remove"]
+- !private ["Se", "startIndex"]
+- !private ["Se", "subscript"]
+- !private ["SE", "endIndex"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "remove"]
+- !private ["SE", "startIndex"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "endIndex"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "map"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "startIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "endIndex"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["SH", "remove"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "subscript"]
+- ["14ArgumentParser0A3SetV8IteratorV", "ArgumentDefinition"]
+- ["14ArgumentParser0A3SetV8IteratorV", "ArgumentSet"]
+- ["14ArgumentParser0A3SetV8IteratorV", "ArraySlice"]
+- ["14ArgumentParser0A3SetV8IteratorV", "Content"]
+- ["14ArgumentParser0A3SetV8IteratorV", "Element"]
+- ["14ArgumentParser0A3SetV8IteratorV", "Iterator"]
+- ["14ArgumentParser0A3SetV8IteratorV", "_Default_Element"]
+- ["14ArgumentParser0A3SetV8IteratorV", "content"]
+- ["14ArgumentParser0A3SetV8IteratorV", "deinit"]
+- ["14ArgumentParser0A3SetV8IteratorV", "init"]
+- ["14ArgumentParser0A3SetV8IteratorV", "next"]
+- ["St", "Element"]
+- ["St", ""]
+- ["St", "_Default_Element"]
+- !private ["St", "content"]
+- !private ["St", "init"]
+- ["St", "next"]
+- !private ["SM", "endIndex"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["SM", "remove"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "endIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "startIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "endIndex"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "content"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "isEmpty"]
+- ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["ST", "remove"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "startIndex"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "startIndex"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "endIndex"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s19_HasContiguousBytesP", "startIndex"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "endIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "startIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "14ArgumentParser0A3SetV"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "14ArgumentParser0A3SetV8IteratorV7ContentO"
+- "14ArgumentParser0A3SetV7ContentO"
+- "14ArgumentParser0A3SetV8IteratorV7ContentO"
+- "14ArgumentParser0A3SetV7ContentO"
+- "14ArgumentParser0A3SetV8IteratorV7ContentO"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- "14ArgumentParser0A3SetV8IteratorV"
+- "St"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c669ed38978eb0b031e136cee85e5302"

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/master.swiftdeps"
+  },
+  "/Users/andreimirzac/Repos/FillHolesCommandLineTool/Sources/HoleFillingLibrary/Fill.swift": {
+    "dependencies": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/Fill.d",
+    "object": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/Fill.swift.o",
+    "swiftmodule": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/Fill~partial.swiftmodule",
+    "swift-dependencies": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/Fill.swiftdeps"
+  },
+  "/Users/andreimirzac/Repos/FillHolesCommandLineTool/Sources/HoleFillingLibrary/HoleFillingTool.swift": {
+    "dependencies": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/HoleFillingTool.d",
+    "object": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/HoleFillingTool.swift.o",
+    "swiftmodule": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/HoleFillingTool~partial.swiftmodule",
+    "swift-dependencies": "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/HoleFillingTool.swiftdeps"
+  }
+}

@@ -1,0 +1,68 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CommandConfiguration"
+provides-nominal:
+- "14ArgumentParser20CommandConfigurationV"
+provides-member:
+- ["14ArgumentParser20CommandConfigurationV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CommandConfiguration"
+- "NameSpecification"
+- "ParsableCommand"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["14ArgumentParser20CommandConfigurationV", "Bool"]
+- ["14ArgumentParser20CommandConfigurationV", "NameSpecification"]
+- ["14ArgumentParser20CommandConfigurationV", "ParsableCommand"]
+- ["14ArgumentParser20CommandConfigurationV", "String"]
+- ["14ArgumentParser20CommandConfigurationV", "abstract"]
+- ["14ArgumentParser20CommandConfigurationV", "commandName"]
+- ["14ArgumentParser20CommandConfigurationV", "defaultSubcommand"]
+- ["14ArgumentParser20CommandConfigurationV", "discussion"]
+- ["14ArgumentParser20CommandConfigurationV", "helpNames"]
+- ["14ArgumentParser20CommandConfigurationV", "init"]
+- ["14ArgumentParser20CommandConfigurationV", "shouldDisplay"]
+- ["14ArgumentParser20CommandConfigurationV", "subcommands"]
+- ["14ArgumentParser20CommandConfigurationV", "version"]
+- !private ["14ArgumentParser17NameSpecificationV7ElementO", "long"]
+- !private ["14ArgumentParser17NameSpecificationV7ElementO", "short"]
+- !private ["SQ", "long"]
+- !private ["SQ", "short"]
+- !private ["SH", "long"]
+- !private ["SH", "short"]
+- !private ["14ArgumentParser17NameSpecificationV", "deinit"]
+depends-nominal:
+- "14ArgumentParser20CommandConfigurationV"
+- !private "14ArgumentParser17NameSpecificationV7ElementO"
+- !private "SQ"
+- !private "SH"
+- !private "14ArgumentParser17NameSpecificationV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e6b0d76c065bf7a5c5dd0ca1fdf682a5"

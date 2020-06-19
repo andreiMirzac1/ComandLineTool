@@ -1,0 +1,534 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CommandError"
+- "HelpRequested"
+- "CommandParser"
+provides-nominal:
+- "14ArgumentParser12CommandErrorV"
+- "14ArgumentParser13HelpRequestedV"
+- "14ArgumentParser07CommandB0V"
+provides-member:
+- ["14ArgumentParser12CommandErrorV", ""]
+- ["14ArgumentParser13HelpRequestedV", ""]
+- ["14ArgumentParser07CommandB0V", ""]
+- ["14ArgumentParser14SplitArgumentsV", ""]
+- ["14ArgumentParser07CommandB0V", "checkForBuiltInFlags"]
+- ["14ArgumentParser07CommandB0V", "descendingParse"]
+- ["14ArgumentParser07CommandB0V", "parse"]
+- ["14ArgumentParser07CommandB0V", "commandStack"]
+- ["14ArgumentParser07CommandB0V", "commandStack"]
+- ["14ArgumentParser14SplitArgumentsV", "contains"]
+- ["14ArgumentParser14SplitArgumentsV", "contains"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "=="
+- !private "ArgumentDecoder"
+- !private "ArgumentSet"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "CommandError"
+- "CommandParser"
+- "DecodedArguments"
+- "Error"
+- !private "HelpCommand"
+- "HelpRequested"
+- !private "InputOrigin"
+- "Name"
+- "ParsableCommand"
+- !private "ParsedValues"
+- "ParserError"
+- "Result"
+- "SplitArguments"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "Tree"
+depends-member:
+- !private ["14ArgumentParser0A7DecoderC", "deinit"]
+- !private ["14ArgumentParser0A7DecoderC", "init"]
+- !private ["14ArgumentParser0A7DecoderC", "previouslyDecoded"]
+- !private ["14ArgumentParser0A7DecoderC", "usedOrigins"]
+- !private ["14ArgumentParser0A3SetV", "init"]
+- !private ["14ArgumentParser0A3SetV", "lenientParse"]
+- !private ["Sa", "append"]
+- !private ["Sa", "callAsFunction"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "last"]
+- !private ["Sa", "lazy"]
+- !private ["SK", "append"]
+- !private ["SK", "callAsFunction"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "contains"]
+- !private ["SK", "filter"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "last"]
+- !private ["SK", "lazy"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "lazy"]
+- !private ["Sl", "append"]
+- !private ["Sl", "callAsFunction"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "last"]
+- !private ["Sl", "lazy"]
+- !private ["14ArgumentParser20CommandConfigurationV", "defaultSubcommand"]
+- !private ["14ArgumentParser20CommandConfigurationV", "version"]
+- ["14ArgumentParser12CommandErrorV", "ParsableCommand"]
+- ["14ArgumentParser12CommandErrorV", "ParserError"]
+- ["14ArgumentParser12CommandErrorV", "_code"]
+- ["14ArgumentParser12CommandErrorV", "_domain"]
+- ["14ArgumentParser12CommandErrorV", "_getEmbeddedNSError"]
+- ["14ArgumentParser12CommandErrorV", "_userInfo"]
+- ["14ArgumentParser12CommandErrorV", "commandStack"]
+- ["14ArgumentParser12CommandErrorV", "deinit"]
+- ["14ArgumentParser12CommandErrorV", "init"]
+- ["14ArgumentParser12CommandErrorV", "parserError"]
+- !private ["14ArgumentParser07CommandB0V", "ArgumentDecoder"]
+- !private ["14ArgumentParser07CommandB0V", "ArgumentSet"]
+- ["14ArgumentParser07CommandB0V", "CommandError"]
+- ["14ArgumentParser07CommandB0V", "DecodedArguments"]
+- !private ["14ArgumentParser07CommandB0V", "HelpCommand"]
+- !private ["14ArgumentParser07CommandB0V", "HelpRequested"]
+- !private ["14ArgumentParser07CommandB0V", "InputOrigin"]
+- !private ["14ArgumentParser07CommandB0V", "Name"]
+- ["14ArgumentParser07CommandB0V", "ParsableCommand"]
+- !private ["14ArgumentParser07CommandB0V", "ParsedValues"]
+- !private ["14ArgumentParser07CommandB0V", "ParserError"]
+- ["14ArgumentParser07CommandB0V", "Result"]
+- ["14ArgumentParser07CommandB0V", "SplitArguments"]
+- ["14ArgumentParser07CommandB0V", "String"]
+- ["14ArgumentParser07CommandB0V", "Tree"]
+- ["14ArgumentParser07CommandB0V", "checkForBuiltInFlags"]
+- ["14ArgumentParser07CommandB0V", "commandStack"]
+- ["14ArgumentParser07CommandB0V", "commandTree"]
+- !private ["14ArgumentParser07CommandB0V", "consumeNextCommand"]
+- ["14ArgumentParser07CommandB0V", "currentNode"]
+- ["14ArgumentParser07CommandB0V", "decodedArguments"]
+- ["14ArgumentParser07CommandB0V", "descendingParse"]
+- !private ["14ArgumentParser07CommandB0V", "extractLastParsedValue"]
+- ["14ArgumentParser07CommandB0V", "init"]
+- ["14ArgumentParser07CommandB0V", "parse"]
+- !private ["14ArgumentParser07CommandB0V", "parseCurrent"]
+- !private ["SL", "argumentIndex"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "long"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "callAsFunction"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "lazy"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isValue"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "lazy"]
+- !private ["s28CustomDebugStringConvertibleP", "lenientParse"]
+- ["s28CustomDebugStringConvertibleP", "option"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "lazy"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "coalescedExtraElements"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "containsNonTerminatorArguments"]
+- !private ["s23CustomStringConvertibleP", "elements"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lazy"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "nameWithValue"]
+- !private ["s23CustomStringConvertibleP", "originalInput"]
+- !private ["s23CustomStringConvertibleP", "peekNext"]
+- !private ["s23CustomStringConvertibleP", "popNextValue"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "callAsFunction"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "lazy"]
+- !private ["Se", "append"]
+- !private ["Se", "buildCommandStack"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "configuration"]
+- !private ["Se", "contains"]
+- !private ["Se", "filter"]
+- !private ["Se", "getHelpNames"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "last"]
+- !private ["Se", "lazy"]
+- !private ["Se", "validate"]
+- !private ["14ArgumentParser16DecodedArgumentsV", "command"]
+- !private ["14ArgumentParser16DecodedArgumentsV", "commandType"]
+- !private ["14ArgumentParser16DecodedArgumentsV", "init"]
+- !private ["14ArgumentParser16DecodedArgumentsV", "type"]
+- !private ["s7DecoderP", "init"]
+- !private ["s7DecoderP", "previouslyDecoded"]
+- !private ["s7DecoderP", "usedOrigins"]
+- !private ["14ArgumentParser11InputOriginV7ElementO", "argumentIndex"]
+- !private ["14ArgumentParser14SplitArgumentsV7ElementO", "isValue"]
+- ["14ArgumentParser14SplitArgumentsV7ElementO", "option"]
+- !private ["SE", "append"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "contains"]
+- !private ["SE", "filter"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "last"]
+- !private ["SE", "lazy"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "addChild"]
+- !private ["SQ", "append"]
+- !private ["SQ", "argumentIndex"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "element"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "firstChild"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isLeaf"]
+- !private ["SQ", "isValue"]
+- !private ["SQ", "last"]
+- !private ["SQ", "lazy"]
+- !private ["SQ", "long"]
+- !private ["SQ", "name"]
+- !private ["SQ", "nameWithValue"]
+- ["SQ", "option"]
+- !private ["SQ", "path"]
+- !private ["SQ", "success"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "invalidState"]
+- !private ["s5ErrorP", "noArguments"]
+- !private ["s5ErrorP", "unexpectedExtraValues"]
+- !private ["s5ErrorP", "unknownOption"]
+- !private ["s5ErrorP", "userValidationError"]
+- !private ["s5ErrorP", "versionRequested"]
+- !private ["14ArgumentParser013ExpressibleByA0P", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "callAsFunction"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "lazy"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["SH", "addChild"]
+- !private ["SH", "append"]
+- !private ["SH", "argumentIndex"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "contains"]
+- !private ["SH", "element"]
+- !private ["SH", "failure"]
+- !private ["SH", "filter"]
+- !private ["SH", "firstChild"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isLeaf"]
+- !private ["SH", "last"]
+- !private ["SH", "lazy"]
+- !private ["SH", "path"]
+- !private ["SH", "success"]
+- !private ["14ArgumentParser11HelpCommandV", "buildCommandStack"]
+- !private ["14ArgumentParser11HelpCommandV", "deinit"]
+- !private ["14ArgumentParser11HelpCommandV", "init"]
+- ["14ArgumentParser13HelpRequestedV", "_code"]
+- ["14ArgumentParser13HelpRequestedV", "_domain"]
+- ["14ArgumentParser13HelpRequestedV", "_getEmbeddedNSError"]
+- ["14ArgumentParser13HelpRequestedV", "_userInfo"]
+- ["14ArgumentParser13HelpRequestedV", "deinit"]
+- ["14ArgumentParser13HelpRequestedV", "init"]
+- !private ["14ArgumentParser11InputOriginV", "Element"]
+- !private ["s22LazyCollectionProtocolP", "compactMap"]
+- !private ["s22LazyCollectionProtocolP", "last"]
+- !private ["s15LazyMapSequenceV", "last"]
+- !private ["s12LazySequenceV", "compactMap"]
+- !private ["s20LazySequenceProtocolP", "compactMap"]
+- !private ["s20LazySequenceProtocolP", "last"]
+- ["14ArgumentParser19LenientParsedValuesO", "partial"]
+- ["14ArgumentParser19LenientParsedValuesO", "success"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "append"]
+- !private ["SM", "callAsFunction"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "contains"]
+- !private ["SM", "filter"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "last"]
+- !private ["SM", "lazy"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "callAsFunction"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "lazy"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["14ArgumentParser4NameO", "deinit"]
+- !private ["14ArgumentParser4NameO", "long"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "buildCommandStack"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "configuration"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "getHelpNames"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "init"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "validate"]
+- !private ["14ArgumentParser15ParsableCommandP", "buildCommandStack"]
+- !private ["14ArgumentParser15ParsableCommandP", "configuration"]
+- !private ["14ArgumentParser15ParsableCommandP", "getHelpNames"]
+- !private ["14ArgumentParser15ParsableCommandP", "init"]
+- !private ["14ArgumentParser15ParsableCommandP", "validate"]
+- !private ["14ArgumentParser06ParsedA0O", "name"]
+- !private ["14ArgumentParser06ParsedA0O", "nameWithValue"]
+- !private ["14ArgumentParser0B5ErrorO", "deinit"]
+- !private ["14ArgumentParser0B5ErrorO", "invalidState"]
+- !private ["14ArgumentParser0B5ErrorO", "noArguments"]
+- !private ["14ArgumentParser0B5ErrorO", "unexpectedExtraValues"]
+- !private ["14ArgumentParser0B5ErrorO", "unknownOption"]
+- !private ["14ArgumentParser0B5ErrorO", "userValidationError"]
+- !private ["14ArgumentParser0B5ErrorO", "versionRequested"]
+- !private ["Sk", "append"]
+- !private ["Sk", "callAsFunction"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "last"]
+- !private ["Sk", "lazy"]
+- !private ["Sm", "append"]
+- !private ["Sm", "callAsFunction"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "last"]
+- !private ["Sm", "lazy"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", "append"]
+- !private ["ST", "callAsFunction"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "contains"]
+- !private ["ST", "filter"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "last"]
+- !private ["ST", "lazy"]
+- !private ["ST", "lenientParse"]
+- ["14ArgumentParser14SplitArgumentsV", "Bool"]
+- ["14ArgumentParser14SplitArgumentsV", "Name"]
+- !private ["14ArgumentParser14SplitArgumentsV", "coalescedExtraElements"]
+- ["14ArgumentParser14SplitArgumentsV", "contains"]
+- !private ["14ArgumentParser14SplitArgumentsV", "containsNonTerminatorArguments"]
+- !private ["14ArgumentParser14SplitArgumentsV", "elements"]
+- !private ["14ArgumentParser14SplitArgumentsV", "init"]
+- !private ["14ArgumentParser14SplitArgumentsV", "originalInput"]
+- !private ["14ArgumentParser14SplitArgumentsV", "peekNext"]
+- !private ["14ArgumentParser14SplitArgumentsV", "popNextValue"]
+- !private ["14ArgumentParser14SplitArgumentsV", "removeAll"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["14ArgumentParser4TreeC", "addChild"]
+- !private ["14ArgumentParser4TreeC", "element"]
+- !private ["14ArgumentParser4TreeC", "firstChild"]
+- !private ["14ArgumentParser4TreeC", "init"]
+- !private ["14ArgumentParser4TreeC", "isLeaf"]
+- !private ["14ArgumentParser4TreeC", "path"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "callAsFunction"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "lazy"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "callAsFunction"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "lazy"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "callAsFunction"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "lazy"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "callAsFunction"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lazy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "lazy"]
+depends-nominal:
+- !private "14ArgumentParser0A7DecoderC"
+- !private "14ArgumentParser0A3SetV"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "14ArgumentParser20CommandConfigurationV"
+- "14ArgumentParser12CommandErrorV"
+- "14ArgumentParser07CommandB0V"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "14ArgumentParser16DecodedArgumentsV"
+- !private "s7DecoderP"
+- !private "14ArgumentParser11InputOriginV7ElementO"
+- "14ArgumentParser14SplitArgumentsV7ElementO"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "14ArgumentParser013ExpressibleByA0P"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "14ArgumentParser11HelpCommandV"
+- "14ArgumentParser13HelpRequestedV"
+- !private "14ArgumentParser11InputOriginV"
+- !private "s22LazyCollectionProtocolP"
+- !private "s15LazyMapSequenceV"
+- !private "s12LazySequenceV"
+- !private "s20LazySequenceProtocolP"
+- "14ArgumentParser19LenientParsedValuesO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "14ArgumentParser4NameO"
+- !private "14ArgumentParser17ParsableArgumentsP"
+- !private "14ArgumentParser15ParsableCommandP"
+- !private "14ArgumentParser06ParsedA0O"
+- !private "14ArgumentParser0B5ErrorO"
+- !private "Sk"
+- !private "Sm"
+- !private "s6ResultO"
+- !private "ST"
+- "14ArgumentParser14SplitArgumentsV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "14ArgumentParser4TreeC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e6c154fb86b05fec12bf57da3160f835"

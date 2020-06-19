@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParserError"
+- "InternalParseError"
+provides-nominal:
+- "14ArgumentParser0B5ErrorO"
+- "14ArgumentParser18InternalParseErrorO"
+provides-member:
+- ["14ArgumentParser0B5ErrorO", ""]
+- ["14ArgumentParser18InternalParseErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Character"
+- "Error"
+- "InputKey"
+- "InputOrigin"
+- "Int"
+- "InternalParseError"
+- "Name"
+- "ParserError"
+- "String"
+depends-member:
+- ["SQ", "Element"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["14ArgumentParser11InputOriginV", "Element"]
+- ["14ArgumentParser18InternalParseErrorO", "InputKey"]
+- ["14ArgumentParser18InternalParseErrorO", "Int"]
+- ["14ArgumentParser18InternalParseErrorO", "_code"]
+- ["14ArgumentParser18InternalParseErrorO", "_domain"]
+- ["14ArgumentParser18InternalParseErrorO", "_getEmbeddedNSError"]
+- ["14ArgumentParser18InternalParseErrorO", "_userInfo"]
+- ["14ArgumentParser18InternalParseErrorO", "deinit"]
+- ["14ArgumentParser18InternalParseErrorO", "expectedCommandButNoneFound"]
+- ["14ArgumentParser18InternalParseErrorO", "subcommandLevelDuplicated"]
+- ["14ArgumentParser18InternalParseErrorO", "subcommandLevelMismatch"]
+- ["14ArgumentParser18InternalParseErrorO", "subcommandLevelMissing"]
+- ["14ArgumentParser18InternalParseErrorO", "subcommandNameMismatch"]
+- ["14ArgumentParser18InternalParseErrorO", "wrongType"]
+- ["14ArgumentParser0B5ErrorO", "Character"]
+- ["14ArgumentParser0B5ErrorO", "Error"]
+- ["14ArgumentParser0B5ErrorO", "InputKey"]
+- ["14ArgumentParser0B5ErrorO", "InputOrigin"]
+- ["14ArgumentParser0B5ErrorO", "Name"]
+- ["14ArgumentParser0B5ErrorO", "String"]
+- ["14ArgumentParser0B5ErrorO", "_code"]
+- ["14ArgumentParser0B5ErrorO", "_domain"]
+- ["14ArgumentParser0B5ErrorO", "_getEmbeddedNSError"]
+- ["14ArgumentParser0B5ErrorO", "_userInfo"]
+- ["14ArgumentParser0B5ErrorO", "deinit"]
+- ["14ArgumentParser0B5ErrorO", "duplicateExclusiveValues"]
+- ["14ArgumentParser0B5ErrorO", "helpRequested"]
+- ["14ArgumentParser0B5ErrorO", "invalidOption"]
+- ["14ArgumentParser0B5ErrorO", "invalidState"]
+- ["14ArgumentParser0B5ErrorO", "missingSubcommand"]
+- ["14ArgumentParser0B5ErrorO", "missingValueForOption"]
+- ["14ArgumentParser0B5ErrorO", "noArguments"]
+- ["14ArgumentParser0B5ErrorO", "noValue"]
+- ["14ArgumentParser0B5ErrorO", "nonAlphanumericShortOption"]
+- ["14ArgumentParser0B5ErrorO", "notImplemented"]
+- ["14ArgumentParser0B5ErrorO", "unableToParseValue"]
+- ["14ArgumentParser0B5ErrorO", "unexpectedExtraValues"]
+- ["14ArgumentParser0B5ErrorO", "unexpectedValueForOption"]
+- ["14ArgumentParser0B5ErrorO", "unknownOption"]
+- ["14ArgumentParser0B5ErrorO", "userValidationError"]
+- ["14ArgumentParser0B5ErrorO", "versionRequested"]
+depends-nominal:
+- "SQ"
+- "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "14ArgumentParser11InputOriginV"
+- "14ArgumentParser18InternalParseErrorO"
+- "14ArgumentParser0B5ErrorO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0c9b97ec1a3e5087b4cd26b782d77e86"

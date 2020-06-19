@@ -1,0 +1,135 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Parsed"
+- "ParsedWrapper"
+- "DecodableParsedWrapper"
+provides-nominal:
+- "14ArgumentParser6ParsedO"
+- "14ArgumentParser6ParsedO10DefinitionV"
+- "14ArgumentParser13ParsedWrapperP"
+- "14ArgumentParser22DecodableParsedWrapperP"
+provides-member:
+- ["14ArgumentParser6ParsedO", ""]
+- ["14ArgumentParser6ParsedO10DefinitionV", ""]
+- ["14ArgumentParser13ParsedWrapperP", ""]
+- ["14ArgumentParser22DecodableParsedWrapperP", ""]
+- ["14ArgumentParser13ParsedWrapperP", "init"]
+- ["14ArgumentParser13ParsedWrapperP", "argumentSet"]
+- ["14ArgumentParser13ParsedWrapperP", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "ArgumentSet"
+- "ArgumentSetProvider"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Decodable"
+- "DecodableParsedWrapper"
+- "Decoder"
+- "InputKey"
+- "Parsed"
+- "ParsedWrapper"
+- !private "ParserError"
+- !private "SingleValueDecoder"
+- !private "StringLiteralType"
+- !private "fatalError"
+depends-member:
+- ["14ArgumentParser0A11SetProviderP", "ArgumentSet"]
+- ["14ArgumentParser0A11SetProviderP", "Decodable"]
+- ["14ArgumentParser0A11SetProviderP", "Decoder"]
+- ["14ArgumentParser0A11SetProviderP", "InputKey"]
+- ["14ArgumentParser0A11SetProviderP", "Parsed"]
+- !private ["14ArgumentParser0A11SetProviderP", "ParserError"]
+- !private ["14ArgumentParser0A11SetProviderP", "SingleValueDecoder"]
+- ["14ArgumentParser0A11SetProviderP", "Value"]
+- ["14ArgumentParser0A11SetProviderP", ""]
+- ["14ArgumentParser0A11SetProviderP", "_parsedValue"]
+- !private ["14ArgumentParser0A11SetProviderP", "fatalError"]
+- ["14ArgumentParser0A11SetProviderP", "init"]
+- ["Se", "ArgumentSet"]
+- ["Se", "Decodable"]
+- ["Se", "Decoder"]
+- ["Se", "InputKey"]
+- ["Se", "Parsed"]
+- !private ["Se", "ParserError"]
+- !private ["Se", "SingleValueDecoder"]
+- ["Se", "Value"]
+- ["Se", ""]
+- ["Se", "_parsedValue"]
+- !private ["Se", "fatalError"]
+- ["Se", "init"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "Decodable"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "Parsed"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "Value"]
+- ["14ArgumentParser22DecodableParsedWrapperP", "init"]
+- !private ["s7DecoderP", "key"]
+- !private ["s7DecoderP", "parsedElement"]
+- ["14ArgumentParser6ParsedO10DefinitionV", "ArgumentSet"]
+- ["14ArgumentParser6ParsedO10DefinitionV", "InputKey"]
+- ["14ArgumentParser6ParsedO10DefinitionV", "init"]
+- ["14ArgumentParser6ParsedO10DefinitionV", "makeSet"]
+- !private ["14ArgumentParser12ParsedValuesV7ElementV", "key"]
+- !private ["14ArgumentParser12ParsedValuesV7ElementV", "value"]
+- !private ["s5ErrorP", "invalidState"]
+- !private ["s5ErrorP", "noValue"]
+- ["14ArgumentParser6ParsedO", "ArgumentSet"]
+- ["14ArgumentParser6ParsedO", "Definition"]
+- ["14ArgumentParser6ParsedO", "InputKey"]
+- ["14ArgumentParser6ParsedO", "definition"]
+- ["14ArgumentParser6ParsedO", "init"]
+- ["14ArgumentParser6ParsedO", "value"]
+- ["14ArgumentParser13ParsedWrapperP", "ArgumentSet"]
+- ["14ArgumentParser13ParsedWrapperP", "Decodable"]
+- ["14ArgumentParser13ParsedWrapperP", "Decoder"]
+- ["14ArgumentParser13ParsedWrapperP", "InputKey"]
+- ["14ArgumentParser13ParsedWrapperP", "Parsed"]
+- !private ["14ArgumentParser13ParsedWrapperP", "ParserError"]
+- !private ["14ArgumentParser13ParsedWrapperP", "SingleValueDecoder"]
+- ["14ArgumentParser13ParsedWrapperP", "Value"]
+- ["14ArgumentParser13ParsedWrapperP", ""]
+- ["14ArgumentParser13ParsedWrapperP", "_parsedValue"]
+- ["14ArgumentParser13ParsedWrapperP", "argumentSet"]
+- !private ["14ArgumentParser13ParsedWrapperP", "fatalError"]
+- ["14ArgumentParser13ParsedWrapperP", "init"]
+- !private ["14ArgumentParser0B5ErrorO", "deinit"]
+- !private ["14ArgumentParser0B5ErrorO", "invalidState"]
+- !private ["14ArgumentParser0B5ErrorO", "noValue"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "deinit"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "key"]
+- !private ["14ArgumentParser18SingleValueDecoderV", "parsedElement"]
+depends-nominal:
+- "14ArgumentParser0A11SetProviderP"
+- "Se"
+- "14ArgumentParser22DecodableParsedWrapperP"
+- !private "s7DecoderP"
+- "14ArgumentParser6ParsedO10DefinitionV"
+- !private "14ArgumentParser12ParsedValuesV7ElementV"
+- !private "s5ErrorP"
+- "14ArgumentParser6ParsedO"
+- "14ArgumentParser13ParsedWrapperP"
+- !private "14ArgumentParser0B5ErrorO"
+- !private "14ArgumentParser18SingleValueDecoderV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ca418f06914d76b3f89a8f61f6e3a4f0"
