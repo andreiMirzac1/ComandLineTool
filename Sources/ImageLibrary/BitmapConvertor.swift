@@ -30,11 +30,8 @@ struct BitmapConvertor {
             for y in 0..<bitmap.height {
                 let index = x * bitmap.width + y
                 array[index] = UInt8(bitmap[x,y] * Float(255))
-                print("\(array[index])",terminator: " ")
             }
-            print("\n")
         }
-        
         return array
     }
 }
