@@ -1,0 +1,3 @@
+import ImageToolCore
+
+ImageTool.main()

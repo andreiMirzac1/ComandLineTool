@@ -1,3 +1,0 @@
-import HoleFillingLibrary
-
-HoleFillingTool.main()

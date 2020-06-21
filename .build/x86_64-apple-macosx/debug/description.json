@@ -1,20 +1,27 @@
 {
   "allExecutables" : [
-    "HoleFillingTool"
+    "ImageTool"
   ],
   "builtTestProducts" : [
-
+    {
+      "packageName" : "ImageTool",
+      "productName" : "ImageToolPackageTests",
+      "testBinary" : "\/Users\/andreimirzac\/Repos\/ComandLineTool\/.build\/x86_64-apple-macosx\/debug\/ImageToolPackageTests.xctest\/Contents\/MacOS\/ImageToolPackageTests"
+    }
   ],
   "copyCommands" : {
 
   },
   "rootExecutables" : [
-    "HoleFillingTool"
+    "ImageTool"
   ],
   "swiftTargetMap" : {
     "C.ArgumentParser-debug.module" : "ArgumentParser",
-    "C.HoleFillingLibrary-debug.module" : "HoleFillingLibrary",
-    "C.HoleFillingTool-debug.module" : "HoleFillingTool"
+    "C.ImageLibrary-debug.module" : "ImageLibrary",
+    "C.ImageLibraryTests-debug.module" : "ImageLibraryTests",
+    "C.ImageTool-debug.module" : "ImageTool",
+    "C.ImageToolCore-debug.module" : "ImageToolCore",
+    "C.ImageToolCoreTests-debug.module" : "ImageToolCoreTests"
   },
   "testDiscoveryCommands" : {
 

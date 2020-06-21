@@ -1,4 +1,0 @@
-module HoleFillingLibrary {
-    header "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/HoleFillingLibrary.build/HoleFillingLibrary-Swift.h"
-    requires objc
-}

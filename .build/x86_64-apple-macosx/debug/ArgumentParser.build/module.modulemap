@@ -1,4 +1,4 @@
 module ArgumentParser {
-    header "/Users/andreimirzac/Repos/FillHolesCommandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/ArgumentParser-Swift.h"
+    header "/Users/andreimirzac/Repos/ComandLineTool/.build/x86_64-apple-macosx/debug/ArgumentParser.build/ArgumentParser-Swift.h"
     requires objc
 }
