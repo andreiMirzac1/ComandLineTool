@@ -17,10 +17,10 @@
 **Example**
 
     ImageTool fill image1.png mask.png 4 eps z;
-**How to create release binary and add to bash scripts.(if you want)**
+**How to create release binary and add to bash scripts**
 
     $ swift build --configuration release
-    $ cp -f .build/release/banner /usr/local/bin/banner
+    $ cp -f .build/release/ImageTool /usr/local/bin/ImageTool
 
 
 
