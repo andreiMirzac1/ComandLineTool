@@ -40,12 +40,11 @@ struct Fill: ParsableCommand {
         let cgHoleMask = try CGImageHandler().loadImage(withName: holeMask)
 
         let imageLib = ImageLibrary(cgImage: cgImage, mask: cgHoleMask, algInputs: try makeAlgorithmInputs())
-        let result = try imageLib.generateImage()
-        try CGImageHandler().saveImage(result, name: "result.png")
+        let result = try imageLib.generateImages()
 
-        let maskedImage = try imageLib.mergedMaskImage()
-        try CGImageHandler().saveImage(maskedImage, name: "maskedImage.png")
-        print("Find the new generated image in the same directory, named \"result.png\"")
+        try CGImageHandler().saveImage(result.0, name: "processedImage.png")
+        try CGImageHandler().saveImage(result.1, name: "maskedImage.png")
+        print("Success!Find Images in same directory as binary script named  \"processedImage\" \"maskedImage.png\"")
     }
 
     func makeAlgorithmInputs() throws -> AlgorithmInputs {

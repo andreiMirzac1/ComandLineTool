@@ -23,10 +23,10 @@ public class ImageLibrary {
         return try mergeMaskIntoImage().cgImage
     }
 
-    public func generateImage() throws -> CGImage {
-        let imageData = try mergeMaskIntoImage()
-        let bitmap = try applyHoleFilling(imageData: imageData)
-        return try makeCGImage(bitMap: bitmap)
+    public func generateImages() throws -> (CGImage, CGImage) {
+        let maskedImage = try mergeMaskIntoImage()
+        let bitmap = try applyHoleFilling(imageData: maskedImage)
+        return (maskedImage.cgImage, try makeCGImage(bitMap: bitmap))
     }
 
     private func mergeMaskIntoImage() throws -> ImageData {
