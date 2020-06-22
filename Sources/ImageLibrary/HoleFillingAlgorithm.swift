@@ -23,7 +23,7 @@ class HoleFillingAlgorithm {
         try validateBitMapValues()
         let boundaryPoints = findHoleBoundary(connectivity: algInputs.connectivity)
         let holePoints = findHolePoints()
-        var resultBitMap = bitmap
+        var resultBitMap = Bitmap(width: bitmap.width, height: bitmap.height, values: bitmap.pixels)
         for point in holePoints {
             resultBitMap[point.x, point.y] = calculateValue(for: point, boundary: boundaryPoints)
         }

@@ -42,6 +42,9 @@ struct Fill: ParsableCommand {
         let imageLib = ImageLibrary(cgImage: cgImage, mask: cgHoleMask, algInputs: try makeAlgorithmInputs())
         let result = try imageLib.generateImage()
         try CGImageHandler().saveImage(result, name: "result.png")
+
+        let maskedImage = try imageLib.mergedMaskImage()
+        try CGImageHandler().saveImage(maskedImage, name: "maskedImage.png")
         print("Find the new generated image in the same directory, named \"result.png\"")
     }
 

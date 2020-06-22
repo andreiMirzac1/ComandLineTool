@@ -12,7 +12,7 @@ struct BitmapConvertor {
         var bitmap: Bitmap = Bitmap(width: width, height: height, value: 0)
         for x in 0..<width {
             for y in 0..<height {
-                let index = y * width + x
+                let index = x * width + y
                 let value = Float(array[index]) / Float(255)
                 if value == 0 {
                     bitmap[x, y]  = -1

@@ -19,6 +19,16 @@ public class ImageLibrary {
         self.algInputs = algInputs
     }
 
+    public func mergedMaskImage() throws -> CGImage {
+        return try mergeMaskIntoImage().cgImage
+    }
+
+    public func generateImage() throws -> CGImage {
+        let imageData = try mergeMaskIntoImage()
+        let bitmap = try applyHoleFilling(imageData: imageData)
+        return try makeCGImage(bitMap: bitmap)
+    }
+
     private func mergeMaskIntoImage() throws -> ImageData {
         let imageData = try makeGrayScaleImageData(from: cgImage)
         let cgMaskData = try makeGrayScaleImageData(from: cgMask)
@@ -30,12 +40,6 @@ public class ImageLibrary {
         let bitMap = BitmapConvertor.convertToHoleFillingBitmap(array: imageData.array, width: cgImage.width, height: cgImage.height)
         let alg = HoleFillingAlgorithm(bitmap: bitMap, algInputs: algInputs)
         return try alg.fillHole()
-    }
-
-    public func generateImage() throws -> CGImage {
-        let imageData = try mergeMaskIntoImage()
-        let bitmap = try applyHoleFilling(imageData: imageData)
-        return try makeCGImage(bitMap: bitmap)
     }
 
     private func applyMasking(image: CGImage, mask: CGImage) throws -> ImageData {
