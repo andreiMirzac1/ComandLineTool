@@ -3,7 +3,7 @@
 ### How to compile and run.
 
     swift build 
-    swift run ImageTool fill image1.png mask.png 4 1.3 1.3;
+    swift run ImageTool fill image1.png mask.png 4 1.3 1.3
 ### Script arguments
     
 
